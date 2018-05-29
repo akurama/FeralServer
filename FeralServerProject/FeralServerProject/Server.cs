@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net.Sockets;
 using System.Threading;
+using FeralServerProject.Extensions;
 
 namespace FeralServerProject
 {
@@ -27,11 +28,12 @@ namespace FeralServerProject
         public Server()
         {
             StartServer();
+            ConsoleLogs.ConsoleLog();
         }
 
         void StartServer()
         {
-            Console.WriteLine("Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2");
+            ConsoleLogs.ConsoleLog(ConsoleColor.White, "Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2");
 
             this.terminateServer = false;
 
@@ -40,13 +42,11 @@ namespace FeralServerProject
             try
             {
                 tcpListener.Start();
-                Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                Console.WriteLine("Sever Started");
-                Console.ResetColor();
+                ConsoleLogs.ConsoleLog(ConsoleColor.Magenta, "Server Started");
             }
             catch (SocketException e)
             {
-                Console.WriteLine(e);
+                ConsoleLogs.ConsoleLog(ConsoleColor.Red, e.ToString());
                 throw;
             }
 
@@ -69,17 +69,21 @@ namespace FeralServerProject
                 {
                     TcpClient tcpClient = tcpListener.AcceptTcpClient();
 
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("Client wants to Connect");
-                    Console.ResetColor();
+                    ConsoleLogs.ConsoleLog(ConsoleColor.Green, "Client wants to connect");
 
                     lock (this.connections)
                     {
-                        if (this.playerCount < playerCount)
+                        Console.WriteLine(playerCount);
+                        if (this.playerCount < maxPlayerNumber)
                         {
+                            ConsoleLogs.ConsoleLog(ConsoleColor.Green, "Client can connect");
                             Connection tempConnection = new Connection(tcpClient);
 
                             this.connections.Add(tempConnection);
+                        }
+                        else
+                        {
+                            ConsoleLogs.ConsoleLog(ConsoleColor.Red, "Client cannot connect, because the Lobby is full");
                         }
                     }
                 }

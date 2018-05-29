@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using FeralServerProject.Extensions;
 using FeralServerProject.Messages;
 
 namespace FeralServerProject
@@ -39,6 +41,19 @@ namespace FeralServerProject
 
         public void Update()
         {
+            if (TCPStateExtensions.GetState(tcpClient) == TcpState.Closed)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Disconnected");
+                Console.ResetColor();   
+            }
+
+            //ICh bekomme eine 8 wenn JD weg ist
+            //Ich bekomme eine 5 Established wenn der Client vernüftig verbunden ist
+            //Also alles außer 5 = Abbruch ?!
+            int data = (int)TCPStateExtensions.GetState(tcpClient);
+            Console.WriteLine(data);
+
             while (this.networktStream.DataAvailable)
             {
                 Console.WriteLine("Data Availeble");
