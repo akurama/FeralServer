@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FeralServerProject.Collections
+{
+    public enum MessageTypes
+    {
+        ConnnectMessage,
+        DisconnectMessage,
+        ReadyMessage,
+        StartGameMessage,
+        StopGameMessage,
+        ChatMessage,
+        GameStateMessage,
+        GameInputMessage
+    }
+}
