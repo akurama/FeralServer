@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -15,11 +16,12 @@ namespace FeralServerProject
         private int SERVERPORT = 2018;
         private bool terminateServer = false;
         private Thread serverThread;
-        private List<TcpClient> tcpClients = new List<TcpClient>();
+        private Thread updateThread;
+        private List<Connection> connections = new List<Connection>();
         public int maxPlayerNumber = 2;
         public int playerCount
         {
-            get { return tcpClients.Count; }
+            get { return connections.Count; }
         }
 
         public Server()
@@ -38,7 +40,9 @@ namespace FeralServerProject
             try
             {
                 tcpListener.Start();
+                Console.ForegroundColor = ConsoleColor.DarkMagenta;
                 Console.WriteLine("Sever Started");
+                Console.ResetColor();
             }
             catch (SocketException e)
             {
@@ -50,6 +54,11 @@ namespace FeralServerProject
             this.serverThread.IsBackground = true;
 
             this.serverThread.Start();
+
+            this.updateThread = new Thread(this.ClientUpdateProc);
+            this.updateThread.IsBackground = true;
+
+            this.updateThread.Start();
         }
 
         void ServerThreadProc()
@@ -60,8 +69,35 @@ namespace FeralServerProject
                 {
                     TcpClient tcpClient = tcpListener.AcceptTcpClient();
 
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Client wants to Connect");
+                    Console.ResetColor();
+
+                    lock (this.connections)
+                    {
+                        if (this.playerCount < playerCount)
+                        {
+                            Connection tempConnection = new Connection(tcpClient);
+
+                            this.connections.Add(tempConnection);
+                        }
+                    }
                 }
+            }
+
+            Thread.Sleep(50);
+        }
+
+        void ClientUpdateProc()
+        {
+            while (!terminateServer)
+            {
+                foreach (var connection in connections)
+                {
+                    connection.Update();
+                }
+
+                Thread.Sleep(17);
             }
         }
     }

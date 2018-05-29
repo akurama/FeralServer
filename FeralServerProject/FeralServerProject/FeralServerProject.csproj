@@ -42,6 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\EnumCollection.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="Messages\ChatMessage.cs" />
+    <Compile Include="Messages\ConnectMessage.cs" />
+    <Compile Include="Messages\DisconnectMessage.cs" />
+    <Compile Include="Messages\GameInputMessage.cs" />
+    <Compile Include="Messages\GameStateMessage.cs" />
+    <Compile Include="Messages\MessageBase.cs" />
+    <Compile Include="Messages\ReadyMessage.cs" />
+    <Compile Include="Messages\StartGameMessage.cs" />
+    <Compile Include="Messages\StopGameMessage.cs" />
     <Compile Include="Server.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -49,8 +60,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Messages\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
