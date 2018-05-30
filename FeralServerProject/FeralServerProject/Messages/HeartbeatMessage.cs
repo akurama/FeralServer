@@ -10,6 +10,8 @@ namespace FeralServerProject.Messages
 {
     public class HeartbeatMessage : MessageBase
     {
+        public int heartbeat;
+
         public override eMessageTypes EMessageType
         {
             get { return eMessageTypes.HeartbeatMessage; }
@@ -17,12 +19,12 @@ namespace FeralServerProject.Messages
 
         protected override void Write(BinaryWriter w)
         {
-            
+            w.Write(heartbeat);
         }
 
         protected override void Read(BinaryReader r)
         {
-            
+            heartbeat = r.ReadInt32();
         }
     }
 }

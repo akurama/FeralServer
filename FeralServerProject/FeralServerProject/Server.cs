@@ -80,7 +80,7 @@ namespace FeralServerProject
 
                     lock (this.connections)
                     {
-                        ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Currend Connected Clients: " + playerCount);
+                        ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Current Connected Clients: " + playerCount);
                         if (this.playerCount < maxPlayerNumber)
                         {
                             ConsoleLogs.ConsoleLog(ConsoleColor.Green, "Client can connect");
@@ -118,17 +118,18 @@ namespace FeralServerProject
         {
             while (!terminateServer)
             {
-                MemoryStream memoryStream = new MemoryStream();
-                BinaryWriter binaryWriter = new BinaryWriter(memoryStream);
-
-                binaryWriter.Write("Hearbeat");
+                
+                var m = new HeartbeatMessage()
+                {
+                    heartbeat = 2
+                };
                 
                 foreach (var connection in connections)
                 {
                     ConsoleLogs.ConsoleLog(ConsoleColor.White, "Sending Heartbeat");
                     try
                     {
-                        connection.NetworkStream.Write(memoryStream.ToArray(), 0, memoryStream.ToArray().Length);
+                        connection.Send(m);
                     }
                     catch (Exception e)
                     {
@@ -146,6 +147,63 @@ namespace FeralServerProject
         void OnMessageRecieved(MessageBase message)
         {
             ConsoleLogs.ConsoleLog(ConsoleColor.Blue, "Sie haben post");
+
+            foreach (var connection in connections)
+            {
+                try
+                {
+                    ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Sending Awnser");
+                    connection.Send(message);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                }
+            }
+            
+            LogMessage(message);
+        }
+
+        void LogMessage(MessageBase message)
+        {
+            
+            if (message is ConnectMessage)
+            {
+
+            }
+            else if (message is DisconnectMessage)
+            {
+
+            }
+            else if (message is ReadyMessage)
+            {
+
+            }
+            else if (message is StartGameMessage)
+            {
+
+            }
+            else if (message is StopGameMessage)
+            {
+
+            }
+            else if (message is ChatMessage)
+            {
+                var m = (ChatMessage) message;
+                ConsoleLogs.ConsoleLog(ConsoleColor.Blue, m.SenderName + ": " + m.messageText);
+            }
+            else if (message is HeartbeatMessage)
+            {
+
+            }
+            else if (message is GameStateMessage)
+            {
+
+            }
+            else if (message is GameInputMessage)
+            {
+
+            }
         }
     }
 }
