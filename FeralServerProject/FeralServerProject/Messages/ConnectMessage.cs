@@ -10,9 +10,9 @@ namespace FeralServerProject.Messages
 {
     public class ConnectMessage : MessageBase
     {
-        public override MessageTypes MessageType
+        public override eMessageTypes EMessageType
         {
-            get { return MessageTypes.ConnnectMessage; }
+            get { return eMessageTypes.ConnnectMessage; }
         }
 
         protected override void Write(BinaryWriter w)

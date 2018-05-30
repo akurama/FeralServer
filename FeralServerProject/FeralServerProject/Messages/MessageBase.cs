@@ -7,7 +7,7 @@ namespace FeralServerProject.Messages
 {
     public abstract class MessageBase
     {
-        public abstract MessageTypes MessageType { get; }
+        public abstract eMessageTypes EMessageType { get; }
 
         protected abstract void Write(BinaryWriter w);
         protected abstract void Read(BinaryReader r);
@@ -18,7 +18,7 @@ namespace FeralServerProject.Messages
             BinaryWriter binaryWriter = new BinaryWriter(memorySteam);
 
             binaryWriter.Write((int) 0);
-            binaryWriter.Write((int)this.MessageType);
+            binaryWriter.Write((int)this.EMessageType);
 
             Write(binaryWriter);
 
@@ -35,39 +35,39 @@ namespace FeralServerProject.Messages
             BinaryReader binaryReader = new BinaryReader(memoryStream);
 
             int size = binaryReader.ReadInt32();
-            MessageTypes messageType = (MessageTypes) binaryReader.ReadInt32();
+            eMessageTypes eMessageType = (eMessageTypes) binaryReader.ReadInt32();
 
             MessageBase m;
-            switch (messageType)
+            switch (eMessageType)
             {
-                case MessageTypes.ConnnectMessage:
+                case eMessageTypes.ConnnectMessage:
                     m = new ChatMessage();
                     break;
-                case MessageTypes.DisconnectMessage:
+                case eMessageTypes.DisconnectMessage:
                     m = new DisconnectMessage();
                     break;
-                case MessageTypes.ReadyMessage:
+                case eMessageTypes.ReadyMessage:
                     m = new ReadyMessage();
                     break;
-                case MessageTypes.StartGameMessage:
+                case eMessageTypes.StartGameMessage:
                     m = new StartGameMessage();
                     break;
-                case MessageTypes.StopGameMessage:
+                case eMessageTypes.StopGameMessage:
                     m = new StopGameMessage();
                     break;
-                case MessageTypes.ChatMessage:
+                case eMessageTypes.ChatMessage:
                     m = new ChatMessage();
                     break;
-                case MessageTypes.HeartbeatMessage:
+                case eMessageTypes.HeartbeatMessage:
                     m = new HeartbeatMessage();
                     break;
-                case MessageTypes.EmptyMessage2:
+                case eMessageTypes.EmptyMessage2:
                     ConsoleLogs.ConsoleLog(ConsoleColor.Red, "Message Type not Implemented");
                     return null;
-                case MessageTypes.GameStateMessage:
+                case eMessageTypes.GameStateMessage:
                     m = new GameStateMessage();
                     break;
-                case MessageTypes.GameInputMessage:
+                case eMessageTypes.GameInputMessage:
                     m = new GameInputMessage();
                     break;
                 default:

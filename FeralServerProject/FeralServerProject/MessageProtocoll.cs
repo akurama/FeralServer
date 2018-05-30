@@ -8,6 +8,8 @@ namespace FeralServerProject
 {
     public class MessageProtocoll
     {
+        public event Action<byte[]> MessageComplete;
 
+        private byte[] collecionBuffer = new byte[1024*64];
     }
 }

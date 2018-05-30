@@ -10,9 +10,9 @@ namespace FeralServerProject.Messages
 {
     public class HeartbeatMessage : MessageBase
     {
-        public override MessageTypes MessageType
+        public override eMessageTypes EMessageType
         {
-            get { return MessageTypes.HeartbeatMessage; }
+            get { return eMessageTypes.HeartbeatMessage; }
         }
 
         protected override void Write(BinaryWriter w)

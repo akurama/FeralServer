@@ -10,9 +10,9 @@ namespace FeralServerProject.Messages
 {
     public class DisconnectMessage : MessageBase
     {
-        public override MessageTypes MessageType
+        public override eMessageTypes EMessageType
         {
-            get { return MessageTypes.DisconnectMessage; }
+            get { return eMessageTypes.DisconnectMessage; }
         }
 
         protected override void Write(BinaryWriter w)

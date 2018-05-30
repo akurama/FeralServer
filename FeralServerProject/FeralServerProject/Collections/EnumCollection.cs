@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FeralServerProject.Collections
 {
-    public enum MessageTypes
+    public enum eMessageTypes
     {
         ConnnectMessage,
         DisconnectMessage,

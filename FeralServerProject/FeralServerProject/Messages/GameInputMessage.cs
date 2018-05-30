@@ -10,9 +10,9 @@ namespace FeralServerProject.Messages
 {
     public class GameInputMessage : MessageBase
     {
-        public override MessageTypes MessageType
+        public override eMessageTypes EMessageType
         {
-            get { return MessageTypes.GameInputMessage; }
+            get { return eMessageTypes.GameInputMessage; }
         }
 
         protected override void Write(BinaryWriter w)

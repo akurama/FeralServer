@@ -10,9 +10,9 @@ namespace FeralServerProject.Messages
 {
     public class ReadyMessage : MessageBase
     {
-        public override MessageTypes MessageType
+        public override eMessageTypes EMessageType
         {
-            get { return MessageTypes.ReadyMessage; }
+            get { return eMessageTypes.ReadyMessage; }
         }
 
         protected override void Write(BinaryWriter w)

@@ -10,19 +10,24 @@ namespace FeralServerProject.Messages
 {
     public class ChatMessage : MessageBase
     {
-        public override MessageTypes MessageType
+        public string SenderName;
+        public string messageText;
+
+        public override eMessageTypes EMessageType
         {
-            get { return MessageTypes.ChatMessage; }
+            get { return eMessageTypes.ChatMessage; }
         }
 
         protected override void Write(BinaryWriter w)
         {
-            
+            w.Write(this.SenderName);
+            w.Write(this.messageText);
         }
 
         protected override void Read(BinaryReader r)
         {
-            
+            this.SenderName = r.ReadString();
+            this.messageText = r.ReadString();
         }
     }
 }
