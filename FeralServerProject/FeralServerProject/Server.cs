@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Net.Sockets;
 using System.Threading;
 using FeralServerProject.Extensions;
+using FeralServerProject.Messages;
 
 namespace FeralServerProject
 {
@@ -84,6 +85,8 @@ namespace FeralServerProject
                         {
                             ConsoleLogs.ConsoleLog(ConsoleColor.Green, "Client can connect");
                             Connection tempConnection = new Connection(tcpClient);
+                            tempConnection.MessageRecieved += OnMessageRecieved;
+
 
                             this.connections.Add(tempConnection);
                         }
@@ -138,6 +141,11 @@ namespace FeralServerProject
 
                 Thread.Sleep(1000);
             }
+        }
+
+        void OnMessageRecieved(MessageBase message)
+        {
+            ConsoleLogs.ConsoleLog(ConsoleColor.Blue, "Sie haben post");
         }
     }
 }

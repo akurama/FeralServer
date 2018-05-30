@@ -12,6 +12,8 @@ namespace FeralServerProject
 {
     public class Connection
     {
+        public event Action<MessageBase> MessageRecieved; 
+
         private TcpClient tcpClient;
         public TcpClient TcpClient
         {
@@ -26,24 +28,31 @@ namespace FeralServerProject
 
         private int PlayerID;
         private byte[] receiveBuffer = new byte[1024];
-        private MessageProtocoll messageProtocoll;
+        private MessageProtocoll messageProtocoll = new MessageProtocoll();
 
         public Connection(TcpClient client)
         {
             this.tcpClient = client;
             this.networktStream = tcpClient.GetStream();
 
+            this.messageProtocoll.MessageComplete += MessageProtocoal_MessaceCoplete;
+
             ConsoleLogs.ConsoleLog(ConsoleColor.Green, "New Client Created");
         }
 
         private void MessageProtocoal_MessaceCoplete(byte[] obj)
         {
-
+            var message = MessageBase.FromByteArray(obj);
+            if (this.MessageRecieved != null)
+            {
+                this.MessageRecieved(message);
+            }
         }
 
         public void Send(MessageBase m)
         {
-
+            var b = m.ToByteArray();
+            this.networktStream.Write(b, 0, b.Length);
         }
 
         public void Update()
