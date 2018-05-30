@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlTypes;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +19,9 @@ namespace FeralServerProject
         private bool terminateServer = false;
         private Thread serverThread;
         private Thread updateThread;
+        private Thread headbeatThread;
         private List<Connection> connections = new List<Connection>();
+        private List<Connection> disconnectedConnections = new List<Connection>();
         public int maxPlayerNumber = 2;
         public int playerCount
         {
@@ -28,7 +31,6 @@ namespace FeralServerProject
         public Server()
         {
             StartServer();
-            ConsoleLogs.ConsoleLog();
         }
 
         void StartServer()
@@ -59,6 +61,10 @@ namespace FeralServerProject
             this.updateThread.IsBackground = true;
 
             this.updateThread.Start();
+
+            this.headbeatThread = new Thread(this.ClientHeadBeat);
+            this.headbeatThread.IsBackground = true;
+            this.headbeatThread.Start();
         }
 
         void ServerThreadProc()
@@ -73,7 +79,7 @@ namespace FeralServerProject
 
                     lock (this.connections)
                     {
-                        Console.WriteLine(playerCount);
+                        ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Currend Connected Clients: " + playerCount);
                         if (this.playerCount < maxPlayerNumber)
                         {
                             ConsoleLogs.ConsoleLog(ConsoleColor.Green, "Client can connect");
@@ -102,6 +108,35 @@ namespace FeralServerProject
                 }
 
                 Thread.Sleep(17);
+            }
+        }
+
+        void ClientHeadBeat()
+        {
+            while (!terminateServer)
+            {
+                MemoryStream memoryStream = new MemoryStream();
+                BinaryWriter binaryWriter = new BinaryWriter(memoryStream);
+
+                binaryWriter.Write("Hearbeat");
+                
+                foreach (var connection in connections)
+                {
+                    ConsoleLogs.ConsoleLog(ConsoleColor.White, "Sending Heartbeat");
+                    try
+                    {
+                        connection.NetworkStream.Write(memoryStream.ToArray(), 0, memoryStream.ToArray().Length);
+                    }
+                    catch (Exception e)
+                    {
+                        ConsoleLogs.ConsoleLog(ConsoleColor.Red, e.ToString());
+                        disconnectedConnections.Add(connection);
+                    }
+                }
+
+                HelperFunctions.RemoveDisconnectedClients(disconnectedConnections, connections);
+
+                Thread.Sleep(1000);
             }
         }
     }

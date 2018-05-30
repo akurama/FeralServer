@@ -20,7 +20,6 @@ namespace FeralServerProject.Extensions
             Console.ForegroundColor = color;
             Console.WriteLine(output);
             Console.ResetColor();
-            
         }
 
         public static void ConsoleLog(string message)

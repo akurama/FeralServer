@@ -45,13 +45,14 @@
     <Compile Include="Collections\EnumCollection.cs" />
     <Compile Include="Connection.cs" />
     <Compile Include="Extensions\ConsoleLogs.cs" />
-    <Compile Include="Extensions\TCPStateExtensions.cs" />
+    <Compile Include="Extensions\HelperFunctions.cs" />
     <Compile Include="MessageProtocoll.cs" />
     <Compile Include="Messages\ChatMessage.cs" />
     <Compile Include="Messages\ConnectMessage.cs" />
     <Compile Include="Messages\DisconnectMessage.cs" />
     <Compile Include="Messages\GameInputMessage.cs" />
     <Compile Include="Messages\GameStateMessage.cs" />
+    <Compile Include="Messages\HeartbeatMessage.cs" />
     <Compile Include="Messages\MessageBase.cs" />
     <Compile Include="Messages\ReadyMessage.cs" />
     <Compile Include="Messages\StartGameMessage.cs" />

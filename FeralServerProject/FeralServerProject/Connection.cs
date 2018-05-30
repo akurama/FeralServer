@@ -13,7 +13,17 @@ namespace FeralServerProject
     public class Connection
     {
         private TcpClient tcpClient;
+        public TcpClient TcpClient
+        {
+            get { return tcpClient; }
+        }
+
         private NetworkStream networktStream;
+        public NetworkStream NetworkStream
+        {
+            get { return networktStream; }
+        }
+
         private int PlayerID;
         private byte[] receiveBuffer = new byte[1024];
 
@@ -22,11 +32,7 @@ namespace FeralServerProject
             this.tcpClient = client;
             this.networktStream = tcpClient.GetStream();
 
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("New Client Created");
-            Console.ResetColor();
-
-            
+            ConsoleLogs.ConsoleLog(ConsoleColor.Green, "New Client Created"); 
         }
 
         private void MessageProtocoal_MessaceCoplete(byte[] obj)
@@ -41,19 +47,6 @@ namespace FeralServerProject
 
         public void Update()
         {
-            if (TCPStateExtensions.GetState(tcpClient) == TcpState.Closed)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Disconnected");
-                Console.ResetColor();   
-            }
-
-            //ICh bekomme eine 8 wenn JD weg ist
-            //Ich bekomme eine 5 Established wenn der Client vernüftig verbunden ist
-            //Also alles außer 5 = Abbruch ?!
-            int data = (int)TCPStateExtensions.GetState(tcpClient);
-            Console.WriteLine(data);
-
             while (this.networktStream.DataAvailable)
             {
                 Console.WriteLine("Data Availeble");

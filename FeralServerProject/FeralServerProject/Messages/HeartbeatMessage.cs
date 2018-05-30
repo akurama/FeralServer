@@ -8,11 +8,11 @@ using FeralServerProject.Collections;
 
 namespace FeralServerProject.Messages
 {
-    public class ReadyMessage : MessageBase
+    public class HeartbeatMessage : MessageBase
     {
         public override MessageTypes MessageType
         {
-            get { return MessageTypes.ReadyMessage; }
+            get { return MessageTypes.HeartbeatMessage; }
         }
 
         protected override void Write(BinaryWriter w)
