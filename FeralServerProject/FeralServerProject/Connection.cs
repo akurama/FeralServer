@@ -26,18 +26,19 @@ namespace FeralServerProject
 
         private int PlayerID;
         private byte[] receiveBuffer = new byte[1024];
+        private MessageProtocoll messageProtocoll;
 
         public Connection(TcpClient client)
         {
             this.tcpClient = client;
             this.networktStream = tcpClient.GetStream();
 
-            ConsoleLogs.ConsoleLog(ConsoleColor.Green, "New Client Created"); 
+            ConsoleLogs.ConsoleLog(ConsoleColor.Green, "New Client Created");
         }
 
         private void MessageProtocoal_MessaceCoplete(byte[] obj)
         {
-            
+
         }
 
         public void Send(MessageBase m)
@@ -49,8 +50,9 @@ namespace FeralServerProject
         {
             while (this.networktStream.DataAvailable)
             {
-                Console.WriteLine("Data Availeble");
-                this.networktStream.Read(receiveBuffer, 0,  receiveBuffer.Length);
+                ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "New data availeble");
+                int bytesData = this.networktStream.Read(receiveBuffer, 0, receiveBuffer.Length);
+                this.messageProtocoll.ReceiveData(this.receiveBuffer, 0, bytesData);
             }
         }
     }
