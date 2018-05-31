@@ -87,7 +87,6 @@ namespace FeralServerProject
                             Connection tempConnection = new Connection(tcpClient);
                             tempConnection.MessageRecieved += OnMessageRecieved;
 
-
                             this.connections.Add(tempConnection);
                         }
                         else

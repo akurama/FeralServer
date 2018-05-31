@@ -10,6 +10,8 @@ namespace FeralServerProject.Messages
 {
     public class ConnectMessage : MessageBase
     {
+        public string senderName;
+
         public override eMessageTypes EMessageType
         {
             get { return eMessageTypes.ConnnectMessage; }
@@ -17,12 +19,12 @@ namespace FeralServerProject.Messages
 
         protected override void Write(BinaryWriter w)
         {
-            
+            w.Write(senderName);
         }
 
         protected override void Read(BinaryReader r)
         {
-            
+            senderName = r.ReadString();
         }
     }
 }

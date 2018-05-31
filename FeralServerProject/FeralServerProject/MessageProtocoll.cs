@@ -30,6 +30,7 @@ namespace FeralServerProject
                     if (this.messageSize > this.collecionBuffer.Length)
                     {
                         //UPS I DID IT AGAIN
+                        //Message to big for the buffer this is a serious problem
                     }
                 }
 
