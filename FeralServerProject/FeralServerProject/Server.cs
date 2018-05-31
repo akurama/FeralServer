@@ -125,7 +125,6 @@ namespace FeralServerProject
                 
                 foreach (var connection in connections)
                 {
-                    ConsoleLogs.ConsoleLog(ConsoleColor.White, "Sending Heartbeat");
                     try
                     {
                         connection.Send(m);
@@ -168,7 +167,8 @@ namespace FeralServerProject
             
             if (message is ConnectMessage)
             {
-
+                var m = (ConnectMessage) message;
+                ConsoleLogs.ConsoleLog(ConsoleColor.Green, m.senderName + "has connected");
             }
             else if (message is DisconnectMessage)
             {

@@ -41,7 +41,7 @@ namespace FeralServerProject.Messages
             switch (eMessageType)
             {
                 case eMessageTypes.ConnnectMessage:
-                    m = new ChatMessage();
+                    m = new ConnectMessage();
                     break;
                 case eMessageTypes.DisconnectMessage:
                     m = new DisconnectMessage();
