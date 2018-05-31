@@ -10,6 +10,8 @@ namespace FeralServerProject.Messages
 {
     public class DisconnectMessage : MessageBase
     {
+        public string senderName;
+
         public override eMessageTypes EMessageType
         {
             get { return eMessageTypes.DisconnectMessage; }
@@ -17,12 +19,12 @@ namespace FeralServerProject.Messages
 
         protected override void Write(BinaryWriter w)
         {
-            
+            w.Write(senderName);
         }
 
         protected override void Read(BinaryReader r)
         {
-            
+            senderName = r.ReadString();
         }
     }
 }

@@ -12,7 +12,7 @@ namespace FeralServerProject
 {
     public class Connection
     {
-        public event Action<MessageBase> MessageRecieved; 
+        public event Action<MessageBase, Connection> MessageRecieved; 
 
         private TcpClient tcpClient;
         public TcpClient TcpClient
@@ -26,14 +26,20 @@ namespace FeralServerProject
             get { return networktStream; }
         }
 
-        private int PlayerID;
         private byte[] receiveBuffer = new byte[1024];
         private MessageProtocoll messageProtocoll = new MessageProtocoll();
 
-        public Connection(TcpClient client)
+        private int playerID;
+        public int PlayerID
+        {
+            get { return playerID; }
+        }
+
+        public Connection(TcpClient client, int playerID)
         {
             this.tcpClient = client;
             this.networktStream = tcpClient.GetStream();
+            this.playerID = playerID;
 
             this.messageProtocoll.MessageComplete += MessageProtocoal_MessaceCoplete;
 
@@ -45,7 +51,7 @@ namespace FeralServerProject
             var message = MessageBase.FromByteArray(obj);
             if (this.MessageRecieved != null)
             {
-                this.MessageRecieved(message);
+                this.MessageRecieved(message, this);
             }
         }
 

@@ -84,7 +84,7 @@ namespace FeralServerProject
                         if (this.playerCount < maxPlayerNumber)
                         {
                             ConsoleLogs.ConsoleLog(ConsoleColor.Green, "Client can connect");
-                            Connection tempConnection = new Connection(tcpClient);
+                            Connection tempConnection = new Connection(tcpClient, this.playerCount);
                             tempConnection.MessageRecieved += OnMessageRecieved;
 
                             this.connections.Add(tempConnection);
@@ -117,7 +117,6 @@ namespace FeralServerProject
         {
             while (!terminateServer)
             {
-                
                 var m = new HeartbeatMessage()
                 {
                     heartbeat = 2
@@ -125,6 +124,7 @@ namespace FeralServerProject
                 
                 foreach (var connection in connections)
                 {
+                    ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Heartbeat");
                     try
                     {
                         connection.Send(m);
@@ -142,9 +142,10 @@ namespace FeralServerProject
             }
         }
 
-        void OnMessageRecieved(MessageBase message)
+        void OnMessageRecieved(MessageBase message, Connection senderConnection)
         {
             ConsoleLogs.ConsoleLog(ConsoleColor.Blue, "Sie haben post");
+            Console.WriteLine(senderConnection);
 
             foreach (var connection in connections)
             {
