@@ -34,6 +34,9 @@ namespace FeralServerProject
         {
             get { return playerID; }
         }
+        
+        //Currentstep: 0
+        //Im Server Liste 
 
         public Connection(TcpClient client, int playerID)
         {

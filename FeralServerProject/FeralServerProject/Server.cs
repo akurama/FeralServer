@@ -129,7 +129,7 @@ namespace FeralServerProject
 
                 for (int i = 0; i < connections.Count; i++)
                 {
-                    ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Heartbeat");
+                    //ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Heartbeat");
                     try
                     {
              
@@ -185,9 +185,6 @@ namespace FeralServerProject
                     Console.WriteLine(e);
                 }
             }
-            
-            
-
             LogMessage(message);
         }
 
@@ -226,9 +223,12 @@ namespace FeralServerProject
             }
             else if (message is GameStateMessage)
             {
+                var m = (GameStateMessage) message;
             }
             else if (message is GameInputMessage)
             {
+                var m = (GameInputMessage) message;
+                ConsoleLogs.ConsoleLog(ConsoleColor.DarkCyan, "From Cell: " + m.fromCellIndex + " To Cell: " + m.toCellIndex + " Interaction Type: " + m.interactionType);
             }
         }
     }
