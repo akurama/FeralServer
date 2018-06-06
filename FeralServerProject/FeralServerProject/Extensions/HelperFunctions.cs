@@ -18,6 +18,7 @@ namespace FeralServerProject.Extensions
                 if (allConnections.Contains(connection))
                 {
                     allConnections.Remove(connection);
+                    Console.WriteLine("Remove Client");
                 }
             }
 

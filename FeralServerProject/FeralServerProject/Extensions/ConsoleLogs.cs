@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -14,9 +15,10 @@ namespace FeralServerProject.Extensions
             //String: [Day.Month.Year HH:MM:SS] + Message
             DateTime dateTime = DateTime.Now;
 
-            //ToDo: Format String
-            string output = "[" + dateTime.Day + "." + dateTime.Month + "." + dateTime.Year + " " + dateTime.Hour + ":" + dateTime.Minute + ":" + dateTime.Second + "] " + message;
-
+            GetDateString();
+            
+            string output = "[" + GetDateString() + "] " + message;
+            
             Console.ForegroundColor = color;
             Console.WriteLine(output);
             Console.ResetColor();
@@ -27,9 +29,15 @@ namespace FeralServerProject.Extensions
             //String: [Day.Month.Year HH:MM:SS] + Message
             DateTime dateTime = DateTime.Now;
 
-            //ToDo: Format String
-            string output = "[" + dateTime.Day + "." + dateTime.Month + "." + dateTime.Year + " " + dateTime.Hour + ":" + dateTime.Minute + ":" + dateTime.Second + "] " + message;
+            string output = "[" + GetDateString() + "] " + message;
             Console.WriteLine(output);
+        }
+
+        static string GetDateString()
+        {
+            DateTime dateTime = DateTime.Now;
+
+            return dateTime.ToString().PadLeft(1);
         }
 
         void WriteToFile(string message)

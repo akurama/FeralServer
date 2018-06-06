@@ -10,6 +10,7 @@ using System.Net.Sockets;
 using System.Threading;
 using FeralServerProject.Extensions;
 using FeralServerProject.Messages;
+using Microsoft.Win32;
 
 namespace FeralServerProject
 {
@@ -23,7 +24,9 @@ namespace FeralServerProject
         private Thread headbeatThread;
         private List<Connection> connections = new List<Connection>();
         private List<Connection> disconnectedConnections = new List<Connection>();
+        public static bool listLocked = false;
         public int maxPlayerNumber = 2;
+
         public int playerCount
         {
             get { return connections.Count; }
@@ -36,7 +39,8 @@ namespace FeralServerProject
 
         void StartServer()
         {
-            ConsoleLogs.ConsoleLog(ConsoleColor.White, "Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2");
+            ConsoleLogs.ConsoleLog(ConsoleColor.White,
+                "Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2");
 
             this.terminateServer = false;
 
@@ -91,7 +95,8 @@ namespace FeralServerProject
                         }
                         else
                         {
-                            ConsoleLogs.ConsoleLog(ConsoleColor.Red, "Client cannot connect, because the Lobby is full");
+                            ConsoleLogs.ConsoleLog(ConsoleColor.Red,
+                                "Client cannot connect, because the Lobby is full");
                         }
                     }
                 }
@@ -104,9 +109,9 @@ namespace FeralServerProject
         {
             while (!terminateServer)
             {
-                foreach (var connection in connections)
+                for (int i = 0; i < connections.Count; i++)
                 {
-                    connection.Update();
+                    connections[i].Update();
                 }
 
                 Thread.Sleep(17);
@@ -121,18 +126,20 @@ namespace FeralServerProject
                 {
                     heartbeat = 2
                 };
-                
-                foreach (var connection in connections)
+
+                for (int i = 0; i < connections.Count; i++)
                 {
                     ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Heartbeat");
                     try
                     {
-                        connection.Send(m);
+             
+                        connections[i].Send(m);
                     }
                     catch (Exception e)
                     {
                         ConsoleLogs.ConsoleLog(ConsoleColor.Red, e.ToString());
-                        disconnectedConnections.Add(connection);
+                        disconnectedConnections.Add(connections[i]);
+                        connections[i].MessageRecieved -= OnMessageRecieved;
                     }
                 }
 
@@ -145,14 +152,33 @@ namespace FeralServerProject
         void OnMessageRecieved(MessageBase message, Connection senderConnection)
         {
             ConsoleLogs.ConsoleLog(ConsoleColor.Blue, "Sie haben post");
-            Console.WriteLine(senderConnection);
 
-            foreach (var connection in connections)
+            if (message is DisconnectMessage)
+            {
+                //TODO: Remove client from List of Connected Clients
+                disconnectedConnections.Add(senderConnection);
+                senderConnection.MessageRecieved -= OnMessageRecieved;
+            }
+
+            if (message is ConnectMessage)
+            {
+                var m = (ConnectMessage) message;
+                if (m.clientID == 0)
+                {
+                    //TODO Assign ClientID from Server
+                }
+
+                message = m;
+            }
+              
+            HelperFunctions.RemoveDisconnectedClients(disconnectedConnections, connections);
+            
+            for (int i = 0; i < connections.Count; i++)
             {
                 try
                 {
                     ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Sending Awnser");
-                    connection.Send(message);
+                    connections[i].Send(message);
                 }
                 catch (Exception e)
                 {
@@ -160,32 +186,33 @@ namespace FeralServerProject
                 }
             }
             
+            
+
             LogMessage(message);
         }
 
         void LogMessage(MessageBase message)
         {
-            
             if (message is ConnectMessage)
             {
                 var m = (ConnectMessage) message;
-                ConsoleLogs.ConsoleLog(ConsoleColor.Green, m.senderName + "has connected");
+                ConsoleLogs.ConsoleLog(ConsoleColor.Green, m.senderName + " has connected");
             }
             else if (message is DisconnectMessage)
             {
-
+                var m = (DisconnectMessage) message;
             }
             else if (message is ReadyMessage)
             {
-
+                var m = (ReadyMessage) message;
             }
             else if (message is StartGameMessage)
             {
-
+                var m = (StartGameMessage) message;
             }
             else if (message is StopGameMessage)
             {
-
+                var m = (StopGameMessage) message;
             }
             else if (message is ChatMessage)
             {
@@ -194,15 +221,14 @@ namespace FeralServerProject
             }
             else if (message is HeartbeatMessage)
             {
-
+                //Wird nie vom Server zurück gegeben
+                var m = (HeartbeatMessage) message;
             }
             else if (message is GameStateMessage)
             {
-
             }
             else if (message is GameInputMessage)
             {
-
             }
         }
     }

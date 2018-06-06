@@ -11,6 +11,9 @@ namespace FeralServerProject.Messages
     public class ConnectMessage : MessageBase
     {
         public string senderName;
+        //TODO: Assign ClientID to Client;
+        public int clientID;
+        
 
         public override eMessageTypes EMessageType
         {
@@ -20,11 +23,13 @@ namespace FeralServerProject.Messages
         protected override void Write(BinaryWriter w)
         {
             w.Write(senderName);
+            //w.Write(clientID);
         }
 
         protected override void Read(BinaryReader r)
         {
             senderName = r.ReadString();
+            //clientID = r.ReadInt32();
         }
     }
 }
