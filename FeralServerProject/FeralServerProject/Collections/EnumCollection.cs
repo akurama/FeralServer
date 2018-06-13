@@ -17,6 +17,15 @@ namespace FeralServerProject.Collections
         HeartbeatMessage,
         EmptyMessage2,
         GameStateMessage,
-        GameInputMessage
+        GameInputMessage,
+        EndTurnMessage,
+        GameSettingsMessage
+    }
+
+    public enum eSettingType
+    {
+        TrunCount,
+        MaxPlayers,
+        RaceID
     }
 }

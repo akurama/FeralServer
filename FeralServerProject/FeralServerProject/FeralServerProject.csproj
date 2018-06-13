@@ -50,7 +50,9 @@
     <Compile Include="Messages\ChatMessage.cs" />
     <Compile Include="Messages\ConnectMessage.cs" />
     <Compile Include="Messages\DisconnectMessage.cs" />
+    <Compile Include="Messages\EndTurnMessage.cs" />
     <Compile Include="Messages\GameInputMessage.cs" />
+    <Compile Include="Messages\GameSettingsMessage.cs" />
     <Compile Include="Messages\GameStateMessage.cs" />
     <Compile Include="Messages\HeartbeatMessage.cs" />
     <Compile Include="Messages\MessageBase.cs" />

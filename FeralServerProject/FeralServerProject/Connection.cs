@@ -34,7 +34,15 @@ namespace FeralServerProject
         {
             get { return playerID; }
         }
-        
+
+        private int clientID;
+        public int ClientId
+        {
+            get { return clientID; }
+        }
+
+        public int receivedMessages;
+
         //Currentstep: 0
         //Im Server Liste 
 

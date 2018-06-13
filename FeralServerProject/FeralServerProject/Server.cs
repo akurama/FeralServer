@@ -4,6 +4,7 @@ using System.Data.SqlTypes;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net.Sockets;
@@ -44,7 +45,7 @@ namespace FeralServerProject
 
             this.terminateServer = false;
 
-            this.tcpListener = new TcpListener(SERVERPORT);
+            this.tcpListener = new TcpListener(IPAddress.Any, SERVERPORT);
 
             try
             {
@@ -126,13 +127,12 @@ namespace FeralServerProject
                 {
                     heartbeat = 2
                 };
-
+                
                 for (int i = 0; i < connections.Count; i++)
                 {
-                    //ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Heartbeat");
+                    ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Heartbeat");
                     try
                     {
-             
                         connections[i].Send(m);
                     }
                     catch (Exception e)
@@ -145,7 +145,7 @@ namespace FeralServerProject
 
                 HelperFunctions.RemoveDisconnectedClients(disconnectedConnections, connections);
 
-                Thread.Sleep(1000);
+                Thread.Sleep(3000);
             }
         }
 
@@ -229,6 +229,14 @@ namespace FeralServerProject
             {
                 var m = (GameInputMessage) message;
                 ConsoleLogs.ConsoleLog(ConsoleColor.DarkCyan, "From Cell: " + m.fromCellIndex + " To Cell: " + m.toCellIndex + " Interaction Type: " + m.interactionType);
+            }
+            else if (message is EndTurnMessage)
+            {
+                var m = (EndTurnMessage) message;
+            }   
+            else if (message is GameSettingsMessage)
+            {
+                var m = (GameInputMessage) message;
             }
         }
     }
