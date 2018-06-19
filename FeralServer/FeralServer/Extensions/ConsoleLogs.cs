@@ -6,12 +6,13 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace FeralServerProject.Extensions
 {
     public class ConsoleLogs
     {
-        public static void ConsoleLog(ConsoleColor color = ConsoleColor.White, string message = "")
+        public static void ConsoleLog(ConsoleColor color = ConsoleColor.White, string message = "", bool FileOutput = true)
         {
             //String: [Day.Month.Year HH:MM:SS] + Message
             DateTime dateTime = DateTime.Now;
@@ -22,17 +23,19 @@ namespace FeralServerProject.Extensions
             
             Console.ForegroundColor = color;
             Console.WriteLine(output);
-            WriteToFile(output);
+            if(FileOutput)
+                WriteToFile(output);
             Console.ResetColor();
         }
 
-        public static void ConsoleLog(string message)
+        public static void ConsoleLog(string message, bool FileOutput)
         {
             //String: [Day.Month.Year HH:MM:SS] + Message
             DateTime dateTime = DateTime.Now;
 
             string output = "[" + GetDateString() + "] " + message;
-            WriteToFile(output);
+            if(FileOutput)
+                WriteToFile(output);
             Console.WriteLine(output);
         }
 
@@ -47,23 +50,36 @@ namespace FeralServerProject.Extensions
         {
             string path = @"./serveroutput.txt";
 
-            if (File.Exists(path))
+            try
+            {
+                FileStream fs = null;
+                message += "\n";
+
+                if (File.Exists(path))
+                {
+                    using (fs = File.Open(path, FileMode.Append, FileAccess.Write))
+                    {
+                        Write(fs, message);
+                        return;
+                    }
+                }
+                else
+                {
+                    fs = File.Create(path);
+                    Write(fs, message);
+                }
+            }
+            catch (Exception e)
             {
                 
             }
-            else
-            {
-                File.Create(path);
-            }
+        }
 
-            message += "\n";
-
-            using (FileStream fs = File.Open(path, FileMode.Append, FileAccess.Write))
-            {
-                byte[] info = new UTF8Encoding(true).GetBytes(message);
-                fs.Write(info, 0, info.Length);
-                fs.Close();
-            }
+        static void Write(FileStream fs, string message)
+        {
+            byte[] info = new UTF8Encoding(true).GetBytes(message);
+            fs.Write(info, 0, info.Length);
+            fs.Close();
         }
     }
 }

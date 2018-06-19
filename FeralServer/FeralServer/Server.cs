@@ -132,7 +132,7 @@ namespace FeralServerProject
                 
                 for (int i = 0; i < connections.Count; i++)
                 {
-                    ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Heartbeat");
+                    ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Heartbeat", false);
                     try
                     {
                         connections[i].Send(m);
