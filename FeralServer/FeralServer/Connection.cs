@@ -78,7 +78,7 @@ namespace FeralServerProject
         {
             while (this.networktStream.DataAvailable)
             {
-                ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "New data availeble");
+                ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "New data available");
                 int bytesData = this.networktStream.Read(receiveBuffer, 0, receiveBuffer.Length);
                 this.messageProtocoll.ReceiveData(this.receiveBuffer, 0, bytesData);
             }

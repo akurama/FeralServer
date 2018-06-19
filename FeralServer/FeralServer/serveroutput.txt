@@ -1,0 +1,417 @@
+[19.06.2018 11:22:42] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.06.2018 11:22:42] Server Started
+[19.06.2018 11:22:56] Client wants to connect
+[19.06.2018 11:22:56] Current Connected Clients: 0
+[19.06.2018 11:22:56] Client can connect
+[19.06.2018 11:22:56] New Client Created
+[19.06.2018 11:22:56] New data availeble
+[19.06.2018 11:22:56] Sie haben post
+[19.06.2018 11:22:56] Sending Awnser
+[19.06.2018 11:22:56] Jonathan Frakes has connected
+[19.06.2018 11:22:59] New data availeble
+[19.06.2018 11:22:59] Sie haben post
+[19.06.2018 11:24:27] Client wants to connect
+[19.06.2018 11:24:27] Current Connected Clients: 0
+[19.06.2018 11:24:27] Client can connect
+[19.06.2018 11:24:27] New Client Created
+[19.06.2018 11:24:27] New data availeble
+[19.06.2018 11:24:27] Sie haben post
+[19.06.2018 11:24:27] Sending Awnser
+[19.06.2018 11:24:27] Jonathan Frakes has connected
+[19.06.2018 11:26:00] New data availeble
+[19.06.2018 11:26:00] Sie haben post
+[19.06.2018 11:26:40] Client wants to connect
+[19.06.2018 11:26:40] Current Connected Clients: 0
+[19.06.2018 11:26:40] Client can connect
+[19.06.2018 11:26:40] New Client Created
+[19.06.2018 11:26:40] New data availeble
+[19.06.2018 11:26:40] Sie haben post
+[19.06.2018 11:26:40] Sending Awnser
+[19.06.2018 11:26:40] Jonathan Frakes has connected
+[19.06.2018 11:27:14] New data availeble
+[19.06.2018 11:27:14] Sie haben post
+[19.06.2018 11:27:33] Client wants to connect
+[19.06.2018 11:27:33] Current Connected Clients: 0
+[19.06.2018 11:27:33] Client can connect
+[19.06.2018 11:27:33] New Client Created
+[19.06.2018 11:27:33] New data availeble
+[19.06.2018 11:27:33] Sie haben post
+[19.06.2018 11:27:33] Sending Awnser
+[19.06.2018 11:27:33] Jonathan Frakes has connected
+[19.06.2018 11:28:06] New data availeble
+[19.06.2018 11:28:06] Sie haben post
+[19.06.2018 11:32:44] Client wants to connect
+[19.06.2018 11:32:44] Current Connected Clients: 0
+[19.06.2018 11:32:44] Client can connect
+[19.06.2018 11:32:44] New Client Created
+[19.06.2018 11:32:44] New data availeble
+[19.06.2018 11:32:44] Sie haben post
+[19.06.2018 11:32:44] Sending Awnser
+[19.06.2018 11:32:44] Jonathan Frakes has connected
+[19.06.2018 11:32:45] New data availeble
+[19.06.2018 11:32:45] Sie haben post
+[19.06.2018 11:32:45] Sending Awnser
+[19.06.2018 11:32:45] A Player is Ready
+[19.06.2018 11:32:48] New data availeble
+[19.06.2018 11:32:48] Sie haben post
+[19.06.2018 11:32:48] Sending Awnser
+[19.06.2018 11:32:48] A Player is Ready
+[19.06.2018 11:32:49] New data availeble
+[19.06.2018 11:32:49] Sie haben post
+[19.06.2018 11:32:49] Sending Awnser
+[19.06.2018 11:32:49] A Player is Ready
+[19.06.2018 11:32:50] New data availeble
+[19.06.2018 11:32:50] Sie haben post
+[19.06.2018 11:38:29] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.06.2018 11:38:29] Server Started
+[19.06.2018 11:38:52] Client wants to connect
+[19.06.2018 11:38:52] Current Connected Clients: 0
+[19.06.2018 11:38:52] Client can connect
+[19.06.2018 11:38:52] New Client Created
+[19.06.2018 11:38:52] New data availeble
+[19.06.2018 11:38:52] Sie haben post
+[19.06.2018 11:38:52] Sending Awnser
+[19.06.2018 11:38:52] Jonathan Frakes has connected
+[19.06.2018 11:38:53] New data availeble
+[19.06.2018 11:38:53] Sie haben post
+[19.06.2018 11:38:53] Sending Awnser
+[19.06.2018 11:38:53] Player with the client id 1529408332044,4feral1is now Ready
+[19.06.2018 11:38:55] New data availeble
+[19.06.2018 11:38:55] Sie haben post
+[19.06.2018 11:38:55] Sending Awnser
+[19.06.2018 11:38:55] Player with the client id 1529408332044,4feral1is now Ready
+[19.06.2018 11:38:56] New data availeble
+[19.06.2018 11:38:56] Sie haben post
+[19.06.2018 11:38:56] Sending Awnser
+[19.06.2018 11:38:56] Player with the client id 1529408332044,4feral1is now Ready
+[19.06.2018 11:38:58] New data availeble
+[19.06.2018 11:38:58] Sie haben post
+[19.06.2018 11:38:58] Sending Awnser
+[19.06.2018 11:38:58] Player with the client id 1529408332044,4feral1is now Ready
+[19.06.2018 11:38:58] New data availeble
+[19.06.2018 11:38:58] Sie haben post
+[19.06.2018 11:38:58] Sending Awnser
+[19.06.2018 11:38:58] Player with the client id 1529408332044,4feral1is now Ready
+[19.06.2018 11:38:59] New data availeble
+[19.06.2018 11:38:59] Sie haben post
+[19.06.2018 11:38:59] Sending Awnser
+[19.06.2018 11:38:59] Player with the client id 1529408332044,4feral1is now Ready
+[19.06.2018 11:38:59] New data availeble
+[19.06.2018 11:38:59] Sie haben post
+[19.06.2018 11:38:59] Sending Awnser
+[19.06.2018 11:38:59] Player with the client id 1529408332044,4feral1is now Ready
+[19.06.2018 11:39:00] New data availeble
+[19.06.2018 11:39:00] Sie haben post
+[19.06.2018 11:39:00] Sending Awnser
+[19.06.2018 11:39:00] Player with the client id 1529408332044,4feral1is now Ready
+[19.06.2018 11:39:02] New data availeble
+[19.06.2018 11:39:02] Sie haben post
+[19.06.2018 11:39:02] Sending Awnser
+[19.06.2018 11:39:02] Player with the client id 1529408332044,4feral1is now Ready
+[19.06.2018 11:39:02] New data availeble
+[19.06.2018 11:39:03] Sie haben post
+[19.06.2018 11:39:03] Sending Awnser
+[19.06.2018 11:39:03] Player with the client id 1529408332044,4feral1is now Ready
+[19.06.2018 11:39:03] New data availeble
+[19.06.2018 11:39:03] Sie haben post
+[19.06.2018 11:39:03] Sending Awnser
+[19.06.2018 11:39:03] Player with the client id 1529408332044,4feral1is now Ready
+[19.06.2018 11:39:03] New data availeble
+[19.06.2018 11:39:03] Sie haben post
+[19.06.2018 11:39:03] Sending Awnser
+[19.06.2018 11:39:03] Player with the client id 1529408332044,4feral1is now Ready
+[19.06.2018 11:39:04] New data availeble
+[19.06.2018 11:39:04] Sie haben post
+[19.06.2018 13:43:57] Client wants to connect
+[19.06.2018 13:43:57] Current Connected Clients: 0
+[19.06.2018 13:43:57] Client can connect
+[19.06.2018 13:43:57] New Client Created
+[19.06.2018 13:43:57] New data availeble
+[19.06.2018 13:43:57] Sie haben post
+[19.06.2018 13:43:57] Sending Awnser
+[19.06.2018 13:43:57] Jonathan Frakes has connected
+[19.06.2018 13:43:59] New data availeble
+[19.06.2018 13:43:59] Sie haben post
+[19.06.2018 13:43:59] Sending Awnser
+[19.06.2018 13:43:59] Player with the client id 1529415837864,3feral2is now Ready
+[19.06.2018 13:44:00] New data availeble
+[19.06.2018 13:44:00] Sie haben post
+[19.06.2018 13:44:00] Sending Awnser
+[19.06.2018 13:44:00] Player with the client id 1529415837864,3feral2is not Ready
+[19.06.2018 13:44:01] New data availeble
+[19.06.2018 13:44:01] Sie haben post
+[19.06.2018 13:44:01] Sending Awnser
+[19.06.2018 13:44:01] Player with the client id 1529415837864,3feral2is now Ready
+[19.06.2018 13:44:02] New data availeble
+[19.06.2018 13:44:02] Sie haben post
+[19.06.2018 13:44:02] Sending Awnser
+[19.06.2018 13:44:02] Player with the client id 1529415837864,3feral2is not Ready
+[19.06.2018 13:44:03] New data availeble
+[19.06.2018 13:44:03] Sie haben post
+[19.06.2018 13:44:03] Sending Awnser
+[19.06.2018 13:44:03] Player with the client id 1529415837864,3feral2is now Ready
+[19.06.2018 13:44:05] New data availeble
+[19.06.2018 13:44:05] Sie haben post
+[19.06.2018 13:44:05] Sending Awnser
+[19.06.2018 13:44:05] Player with the client id 1529415837864,3feral2is not Ready
+[19.06.2018 13:44:06] New data availeble
+[19.06.2018 13:44:06] Sie haben post
+[19.06.2018 13:44:06] Sending Awnser
+[19.06.2018 13:44:06] Player with the client id 1529415837864,3feral2is now Ready
+[19.06.2018 13:44:09] New data availeble
+[19.06.2018 13:44:09] Sie haben post
+[19.06.2018 13:44:09] Sending Awnser
+[19.06.2018 13:44:09] Player with the client id 1529415837864,3feral2is not Ready
+[19.06.2018 13:44:12] New data availeble
+[19.06.2018 13:44:12] Sie haben post
+[19.06.2018 13:44:12] Sending Awnser
+[19.06.2018 13:44:12] Player with the client id 1529415837864,3feral2is now Ready
+[19.06.2018 13:44:13] New data availeble
+[19.06.2018 13:44:13] Sie haben post
+[19.06.2018 13:44:13] Sending Awnser
+[19.06.2018 13:44:13] Player with the client id 1529415837864,3feral2is not Ready
+[19.06.2018 13:44:13] New data availeble
+[19.06.2018 13:44:13] Sie haben post
+[19.06.2018 13:44:13] Sending Awnser
+[19.06.2018 13:44:13] Player with the client id 1529415837864,3feral2is now Ready
+[19.06.2018 13:44:14] New data availeble
+[19.06.2018 13:44:14] Sie haben post
+[19.06.2018 13:44:14] Sending Awnser
+[19.06.2018 13:44:14] Player with the client id 1529415837864,3feral2is not Ready
+[19.06.2018 13:44:52] New data availeble
+[19.06.2018 13:44:52] Sie haben post
+[19.06.2018 14:43:08] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.06.2018 14:43:08] Server Started
+[19.06.2018 14:43:10] Client wants to connect
+[19.06.2018 14:43:10] Current Connected Clients: 0
+[19.06.2018 14:43:10] Client can connect
+[19.06.2018 14:43:10] New Client Created
+[19.06.2018 14:43:10] New data availeble
+[19.06.2018 14:43:10] Sie haben post
+[19.06.2018 14:43:10] Jonathan Frakes has connected
+[19.06.2018 14:43:16] New data availeble
+[19.06.2018 14:43:16] Sie haben post
+[19.06.2018 14:43:28] Client wants to connect
+[19.06.2018 14:43:28] Current Connected Clients: 0
+[19.06.2018 14:43:28] Client can connect
+[19.06.2018 14:43:28] New Client Created
+[19.06.2018 14:43:28] New data availeble
+[19.06.2018 14:43:28] Sie haben post
+[19.06.2018 14:43:28] Jonathan Frakes has connected
+[19.06.2018 14:43:44] Client wants to connect
+[19.06.2018 14:43:44] Current Connected Clients: 1
+[19.06.2018 14:43:44] Client can connect
+[19.06.2018 14:43:44] New Client Created
+[19.06.2018 14:43:44] New data availeble
+[19.06.2018 14:43:44] Sie haben post
+[19.06.2018 14:43:44] Jonathan Frakes has connected
+[19.06.2018 14:44:03] New data availeble
+[19.06.2018 14:44:03] Sie haben post
+[19.06.2018 14:44:03] Player with the client id 1529419424155,3feral3 is Ready
+[19.06.2018 14:44:09] New data availeble
+[19.06.2018 14:44:09] Sie haben post
+[19.06.2018 14:44:09] Player with the client id 1529419424155,3feral3 is not Ready
+[19.06.2018 14:44:11] New data availeble
+[19.06.2018 14:44:11] Sie haben post
+[19.06.2018 14:44:11] Player with the client id 1529419424155,3feral3 is Ready
+[19.06.2018 14:44:42] New data availeble
+[19.06.2018 14:44:42] Sie haben post
+[19.06.2018 14:46:13] New data availeble
+[19.06.2018 14:46:13] Sie haben post
+[19.06.2018 15:05:38] Client wants to connect
+[19.06.2018 15:05:38] Current Connected Clients: 0
+[19.06.2018 15:05:38] Client can connect
+[19.06.2018 15:05:38] New Client Created
+[19.06.2018 15:05:38] New data availeble
+[19.06.2018 15:05:38] Sie haben post
+[19.06.2018 15:05:38] Jonathan Frakes has connected
+[19.06.2018 15:05:40] New data availeble
+[19.06.2018 15:05:40] Sie haben post
+[19.06.2018 15:18:49] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.06.2018 15:18:49] Server Started
+[19.06.2018 15:21:46] Client wants to connect
+[19.06.2018 15:21:46] Current Connected Clients: 0
+[19.06.2018 15:21:46] Client can connect
+[19.06.2018 15:21:46] New Client Created
+[19.06.2018 15:21:47] New data availeble
+[19.06.2018 15:21:47] Sie haben post
+[19.06.2018 15:21:47] Jonathan Frakes has connected
+[19.06.2018 15:21:49] New data availeble
+[19.06.2018 15:23:47] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.06.2018 15:23:47] Server Started
+[19.06.2018 15:23:49] Client wants to connect
+[19.06.2018 15:23:49] Current Connected Clients: 0
+[19.06.2018 15:23:49] Client can connect
+[19.06.2018 15:23:49] New Client Created
+[19.06.2018 15:23:49] New data availeble
+[19.06.2018 15:23:49] Sie haben post
+[19.06.2018 15:23:49] Jonathan Frakes has connected
+[19.06.2018 15:23:59] System.IO.IOException: Unable to write data to the transport connection: Eine vorhandene Verbindung wurde vom Remotehost geschlossen. ---> System.Net.Sockets.SocketException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at FeralServerProject.Connection.Send(MessageBase m) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Connection.cs:line 74
+   at FeralServerProject.Server.ClientHeadBeat() in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Server.cs:line 139
+[19.06.2018 15:27:40] Client wants to connect
+[19.06.2018 15:27:40] Current Connected Clients: 0
+[19.06.2018 15:27:40] Client can connect
+[19.06.2018 15:27:40] New Client Created
+[19.06.2018 15:27:40] New data availeble
+[19.06.2018 15:27:40] Sie haben post
+[19.06.2018 15:27:40] Jonathan Frakes has connected
+[19.06.2018 15:27:47] System.IO.IOException: Unable to write data to the transport connection: Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen. ---> System.Net.Sockets.SocketException: Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at FeralServerProject.Connection.Send(MessageBase m) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Connection.cs:line 74
+   at FeralServerProject.Server.ClientHeadBeat() in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Server.cs:line 139
+[19.06.2018 15:29:33] Client wants to connect
+[19.06.2018 15:29:33] Current Connected Clients: 0
+[19.06.2018 15:29:33] Client can connect
+[19.06.2018 15:29:33] New Client Created
+[19.06.2018 15:29:33] New data availeble
+[19.06.2018 15:29:33] Sie haben post
+[19.06.2018 15:29:33] Jonathan Frakes has connected
+[19.06.2018 15:30:41] System.IO.IOException: Unable to write data to the transport connection: Eine vorhandene Verbindung wurde vom Remotehost geschlossen. ---> System.Net.Sockets.SocketException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at FeralServerProject.Connection.Send(MessageBase m) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Connection.cs:line 74
+   at FeralServerProject.Server.ClientHeadBeat() in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Server.cs:line 139
+[19.06.2018 15:30:56] Client wants to connect
+[19.06.2018 15:30:56] Current Connected Clients: 0
+[19.06.2018 15:30:56] Client can connect
+[19.06.2018 15:30:56] New Client Created
+[19.06.2018 15:30:56] New data availeble
+[19.06.2018 15:30:56] Sie haben post
+[19.06.2018 15:30:56] Jonathan Frakes has connected
+[19.06.2018 15:31:00] New data availeble
+[19.06.2018 15:31:00] Sie haben post
+[19.06.2018 15:31:00] Client with the ID1529422256433,7feral4 has disconnected.
+[19.06.2018 15:54:38] Client wants to connect
+[19.06.2018 15:54:38] Current Connected Clients: 0
+[19.06.2018 15:54:38] Client can connect
+[19.06.2018 15:54:38] New Client Created
+[19.06.2018 15:54:38] New data availeble
+[19.06.2018 15:54:38] Sie haben post
+[19.06.2018 15:54:38] Jonathan Frakes has connected
+[19.06.2018 15:54:40] Client wants to connect
+[19.06.2018 15:54:40] Current Connected Clients: 1
+[19.06.2018 15:54:40] Client can connect
+[19.06.2018 15:54:40] New Client Created
+[19.06.2018 15:54:40] New data availeble
+[19.06.2018 15:54:40] Sie haben post
+[19.06.2018 15:54:40] Jonathan Frakes has connected
+[19.06.2018 15:54:44] New data availeble
+[19.06.2018 15:54:44] Sie haben post
+[19.06.2018 15:54:44] Client with the ID1529423680431,69feral6 has disconnected.
+[19.06.2018 16:00:45] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.06.2018 16:00:45] Server Started
+[19.06.2018 16:01:04] Client wants to connect
+[19.06.2018 16:01:04] Current Connected Clients: 0
+[19.06.2018 16:01:04] Client can connect
+[19.06.2018 16:01:04] New Client Created
+[19.06.2018 16:01:04] New data available
+[19.06.2018 16:01:04] Jonathan Frakes has connected
+[19.06.2018 16:01:14] Client wants to connect
+[19.06.2018 16:01:14] Current Connected Clients: 1
+[19.06.2018 16:01:14] Client can connect
+[19.06.2018 16:01:14] New Client Created
+[19.06.2018 16:01:14] New data available
+[19.06.2018 16:01:14] Jonathan Frakes has connected
+[19.06.2018 16:01:23] New data available
+[19.06.2018 16:01:23] Client with the ID1529424074394,02feral2 has disconnected.
+[19.06.2018 16:01:24] New data available
+[19.06.2018 16:01:24] Client with the ID1529424064887,56feral1 has disconnected.
+[19.06.2018 16:21:28] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.06.2018 16:21:28] Server Started
+[19.06.2018 16:22:09] Client wants to connect
+[19.06.2018 16:22:09] Current Connected Clients: 0
+[19.06.2018 16:22:09] Client can connect
+[19.06.2018 16:22:09] New Client Created
+[19.06.2018 16:22:09] New data available
+[19.06.2018 16:22:09] Jonathan Frakes has connected
+[19.06.2018 16:22:21] Client wants to connect
+[19.06.2018 16:22:21] Current Connected Clients: 1
+[19.06.2018 16:22:21] Client can connect
+[19.06.2018 16:22:21] New Client Created
+[19.06.2018 16:22:21] New data available
+[19.06.2018 16:22:21] Jonathan Frakes has connected
+[19.06.2018 16:22:24] New data available
+[19.06.2018 16:22:24] Client with the ID1529425329988,81feral1 has disconnected.
+[19.06.2018 16:22:39] New data available
+[19.06.2018 16:22:39] Client with the ID1529425341929,36feral2 has disconnected.
+[19.06.2018 16:22:58] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.06.2018 16:22:58] Server Started
+[19.06.2018 16:23:08] Client wants to connect
+[19.06.2018 16:23:08] Current Connected Clients: 0
+[19.06.2018 16:23:08] Client can connect
+[19.06.2018 16:23:08] New Client Created
+[19.06.2018 16:23:08] New data available
+[19.06.2018 16:23:08] Jonathan Frakes has connected
+[19.06.2018 16:23:15] Client wants to connect
+[19.06.2018 16:23:15] Current Connected Clients: 1
+[19.06.2018 16:23:15] Client can connect
+[19.06.2018 16:23:15] New Client Created
+[19.06.2018 16:23:15] New data available
+[19.06.2018 16:23:15] Jonathan Frakes has connected
+[19.06.2018 16:23:18] New data available
+[19.06.2018 16:23:18] Client with the ID1529425388058,98feral1 has disconnected.
+[19.06.2018 16:23:33] New data available
+[19.06.2018 16:23:33] Player with the client id 1529425395462,23feral2 is Ready
+[19.06.2018 16:24:22] New data available
+[19.06.2018 16:24:22] Client with the ID1529425395462,23feral2 has disconnected.
+[19.06.2018 16:33:31] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.06.2018 16:33:31] Server Started
+[19.06.2018 16:33:47] Client wants to connect
+[19.06.2018 16:33:47] Current Connected Clients: 0
+[19.06.2018 16:33:47] Client can connect
+[19.06.2018 16:33:47] New Client Created
+[19.06.2018 16:33:47] New data available
+[19.06.2018 16:33:47] Jonathan Frakes has connected
+[19.06.2018 16:33:56] Client wants to connect
+[19.06.2018 16:33:56] Current Connected Clients: 1
+[19.06.2018 16:33:56] Client can connect
+[19.06.2018 16:33:56] New Client Created
+[19.06.2018 16:33:56] New data available
+[19.06.2018 16:33:56] Jonathan Frakes has connected
+[19.06.2018 16:33:58] New data available
+[19.06.2018 16:33:58] Client with the ID1529426027518,33feral1 has disconnected.
+[19.06.2018 16:40:44] New data available
+[19.06.2018 16:40:44] Client with the ID1529426036175,85feral2 has disconnected.
+[19.06.2018 17:45:22] Client wants to connect
+[19.06.2018 17:45:22] Current Connected Clients: 0
+[19.06.2018 17:45:22] Client can connect
+[19.06.2018 17:45:22] New Client Created
+[19.06.2018 17:45:22] New data available
+[19.06.2018 17:45:22] Jonathan Frakes has connected
+[19.06.2018 17:45:41] Client wants to connect
+[19.06.2018 17:45:41] Current Connected Clients: 1
+[19.06.2018 17:45:41] Client can connect
+[19.06.2018 17:45:41] New Client Created
+[19.06.2018 17:45:41] New data available
+[19.06.2018 17:45:41] Jonathan Frakes has connected
+[19.06.2018 17:45:44] New data available
+[19.06.2018 17:45:44] Player with the client id 1529430341109,54feral4 is Ready
+[19.06.2018 17:45:49] New data available
+[19.06.2018 17:45:49] Client with the ID1529430341109,54feral4 has disconnected.
+[19.06.2018 17:45:51] New data available
+[19.06.2018 17:45:51] Client with the ID1529430322947,74feral3 has disconnected.
+[19.06.2018 17:45:58] Client wants to connect
+[19.06.2018 17:45:58] Current Connected Clients: 0
+[19.06.2018 17:45:58] Client can connect
+[19.06.2018 17:45:58] New Client Created
+[19.06.2018 17:45:58] New data available
+[19.06.2018 17:45:58] Jonathan Frakes has connected
+[19.06.2018 17:46:06] Client wants to connect
+[19.06.2018 17:46:06] Current Connected Clients: 1
+[19.06.2018 17:46:06] Client can connect
+[19.06.2018 17:46:06] New Client Created
+[19.06.2018 17:46:06] New data available
+[19.06.2018 17:46:07] Jonathan Frakes has connected
+[19.06.2018 17:46:13] New data available
+[19.06.2018 17:46:13] Client with the ID1529430358240,97feral5 has disconnected.
+[19.06.2018 17:50:06] New data available
+[19.06.2018 17:50:06] Client with the ID1529430367017,53feral6 has disconnected.

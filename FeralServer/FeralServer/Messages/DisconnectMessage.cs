@@ -11,6 +11,7 @@ namespace FeralServerProject.Messages
     public class DisconnectMessage : MessageBase
     {
         public string senderName;
+        public string clientID;
 
         public override eMessageTypes EMessageType
         {
@@ -20,11 +21,13 @@ namespace FeralServerProject.Messages
         protected override void Write(BinaryWriter w)
         {
             w.Write(senderName);
+            w.Write(clientID);
         }
 
         protected override void Read(BinaryReader r)
         {
             senderName = r.ReadString();
+            clientID = r.ReadString();
         }
     }
 }

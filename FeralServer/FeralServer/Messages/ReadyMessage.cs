@@ -10,6 +10,9 @@ namespace FeralServerProject.Messages
 {
     public class ReadyMessage : MessageBase
     {
+        public int readyState;
+        public string clientID;
+        
         public override eMessageTypes EMessageType
         {
             get { return eMessageTypes.ReadyMessage; }
@@ -17,12 +20,14 @@ namespace FeralServerProject.Messages
 
         protected override void Write(BinaryWriter w)
         {
-            
+            w.Write(readyState);
+            w.Write(clientID);
         }
 
         protected override void Read(BinaryReader r)
         {
-            
+            readyState = r.ReadInt32();
+            clientID = r.ReadString();
         }
     }
 }

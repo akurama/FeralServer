@@ -29,4 +29,10 @@ namespace FeralServerProject.Collections
         MaxPlayers,
         RaceID
     }
+
+    public enum eReadyState
+    {
+        Ready,
+        NotReady
+    }
 }

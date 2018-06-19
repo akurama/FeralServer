@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net.Sockets;
 using System.Threading;
+using FeralServerProject.Collections;
 using FeralServerProject.Extensions;
 using FeralServerProject.Messages;
 using Microsoft.Win32;
@@ -132,7 +133,6 @@ namespace FeralServerProject
                 
                 for (int i = 0; i < connections.Count; i++)
                 {
-                    ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Heartbeat", false);
                     try
                     {
                         connections[i].Send(m);
@@ -153,13 +153,18 @@ namespace FeralServerProject
 
         void OnMessageRecieved(MessageBase message, Connection senderConnection)
         {
-            ConsoleLogs.ConsoleLog(ConsoleColor.Blue, "Sie haben post");
-
             if (message is DisconnectMessage)
             {
-                //TODO: Remove client from List of Connected Clients
                 disconnectedConnections.Add(senderConnection);
                 senderConnection.MessageRecieved -= OnMessageRecieved;
+                HelperFunctions.RemoveDisconnectedClients(disconnectedConnections, connections);
+
+                for (int i = 0; i < connections.Count; i++)
+                {
+                    ClientInformationMessage m = new ClientInformationMessage(connections[i].ClientId, i, 0);
+                    connections[i].PlayerID = i;
+                    connections[i].Send(m);
+                }
             }
 
             if (message is ConnectMessage)
@@ -167,24 +172,42 @@ namespace FeralServerProject
                 string clientID = (DateTime.Now - new DateTime(1970, 1, 1)).TotalMilliseconds.ToString() + "feral" + numOfConnectedClients;
                 int playerID = connections.Count - 1;
                 
-                ClientInformationMessage m = new ClientInformationMessage(clientID, playerID);
+                ClientInformationMessage m = new ClientInformationMessage(clientID, playerID, 0);
                 senderConnection.Send(m);
                 senderConnection.ClientId = clientID;
                 senderConnection.PlayerID = playerID;
+                for (int i = 0; i < connections.Count; i++)
+                {
+                    try
+                    {
+                        m.informationType = 1;
+                        if(connections[i] != senderConnection)
+                            connections[i].Send(m);
+                        ClientInformationMessage m1 = new ClientInformationMessage(connections[i].ClientId, connections[i].PlayerID, 1);
+                        senderConnection.Send(m1);
+                    }
+                    catch (Exception e)
+                    {
+                        ConsoleLogs.ConsoleLog(ConsoleColor.Red, e.ToString());
+                        disconnectedConnections.Add(connections[i]);
+                        connections[i].MessageRecieved -= OnMessageRecieved;
+                    }
+                }
             }
               
-            HelperFunctions.RemoveDisconnectedClients(disconnectedConnections, connections);
+            
             
             for (int i = 0; i < connections.Count; i++)
             {
                 try
                 {
-                    ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "Sending Awnser");
                     connections[i].Send(message);
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e);
+                    ConsoleLogs.ConsoleLog(ConsoleColor.Red, e.ToString());
+                    disconnectedConnections.Add(connections[i]);
+                    connections[i].MessageRecieved -= OnMessageRecieved;
                 }
             }
             LogMessage(message);
@@ -200,10 +223,14 @@ namespace FeralServerProject
             else if (message is DisconnectMessage)
             {
                 var m = (DisconnectMessage) message;
+                ConsoleLogs.ConsoleLog(ConsoleColor.DarkGreen, "Client with the ID" + m.clientID + " has disconnected.");
             }
             else if (message is ReadyMessage)
             {
                 var m = (ReadyMessage) message;
+                eReadyState readyState = (eReadyState) m.readyState;
+                ConsoleLogs.ConsoleLog(ConsoleColor.Magenta, "Player with the client id " + m.clientID + 
+                                                             (readyState == eReadyState.Ready ? " is Ready" : " is not Ready"));
             }
             else if (message is StartGameMessage)
             {
