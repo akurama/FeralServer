@@ -25,6 +25,7 @@ namespace FeralServerProject
         private Thread headbeatThread;
         private List<Connection> connections = new List<Connection>();
         private List<Connection> disconnectedConnections = new List<Connection>();
+        private int numOfConnectedClients = 0;
         public static bool listLocked = false;
         public int maxPlayerNumber = 2;
 
@@ -80,6 +81,7 @@ namespace FeralServerProject
                 while (this.tcpListener.Pending())
                 {
                     TcpClient tcpClient = tcpListener.AcceptTcpClient();
+                    numOfConnectedClients++;
 
                     ConsoleLogs.ConsoleLog(ConsoleColor.Green, "Client wants to connect");
 
@@ -162,13 +164,13 @@ namespace FeralServerProject
 
             if (message is ConnectMessage)
             {
-                var m = (ConnectMessage) message;
-                if (m.clientID == 0)
-                {
-                    //TODO Assign ClientID from Server
-                }
-
-                message = m;
+                string clientID = (DateTime.Now - new DateTime(1970, 1, 1)).TotalMilliseconds.ToString() + "feral" + numOfConnectedClients;
+                int playerID = connections.Count - 1;
+                
+                ClientInformationMessage m = new ClientInformationMessage(clientID, playerID);
+                senderConnection.Send(m);
+                senderConnection.ClientId = clientID;
+                senderConnection.PlayerID = playerID;
             }
               
             HelperFunctions.RemoveDisconnectedClients(disconnectedConnections, connections);
@@ -218,7 +220,6 @@ namespace FeralServerProject
             }
             else if (message is HeartbeatMessage)
             {
-                //Wird nie vom Server zurück gegeben
                 var m = (HeartbeatMessage) message;
             }
             else if (message is GameStateMessage)
@@ -233,6 +234,7 @@ namespace FeralServerProject
             else if (message is EndTurnMessage)
             {
                 var m = (EndTurnMessage) message;
+                ConsoleLogs.ConsoleLog(ConsoleColor.DarkYellow, "Player " + m.playerIDold + " finished Turn " + m.turnIDold + " now its Player " + m.playerIDnew + " turn");
             }   
             else if (message is GameSettingsMessage)
             {

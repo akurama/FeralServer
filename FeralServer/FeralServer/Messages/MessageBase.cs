@@ -70,6 +70,15 @@ namespace FeralServerProject.Messages
                 case eMessageTypes.GameInputMessage:
                     m = new GameInputMessage();
                     break;
+                case eMessageTypes.EndTurnMessage:
+                    m = new EndTurnMessage();
+                    break;
+                case eMessageTypes.GameSettingsMessage:
+                    m = new GameSettingsMessage();
+                    break;
+                case eMessageTypes.ClientInformationMessage:
+                    m = new ClientInformationMessage();
+                    break;
                 default:
                     //TODO: DONT LET THE SERVER CRASH
                     throw new ArgumentOutOfRangeException();

@@ -33,12 +33,14 @@ namespace FeralServerProject
         public int PlayerID
         {
             get { return playerID; }
+            set { playerID = value; }
         }
 
-        private int clientID;
-        public int ClientId
+        private string clientID;
+        public string ClientId
         {
             get { return clientID; }
+            set { clientID = value; }
         }
 
         public int receivedMessages;

@@ -19,7 +19,8 @@ namespace FeralServerProject.Collections
         GameStateMessage,
         GameInputMessage,
         EndTurnMessage,
-        GameSettingsMessage
+        GameSettingsMessage,
+        ClientInformationMessage
     }
 
     public enum eSettingType
