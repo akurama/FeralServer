@@ -10,7 +10,7 @@ namespace FeralServerProject.Messages
 {
     public class ConnectMessage : MessageBase
     {
-        public string senderName;
+        public string userName;
 
         public override eMessageTypes EMessageType
         {
@@ -19,12 +19,12 @@ namespace FeralServerProject.Messages
 
         protected override void Write(BinaryWriter w)
         {
-            w.Write(senderName);
+            w.Write(userName);
         }
 
         protected override void Read(BinaryReader r)
         {
-            senderName = r.ReadString();
+            userName = r.ReadString();
         }
     }
 }

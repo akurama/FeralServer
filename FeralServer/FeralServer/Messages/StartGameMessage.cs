@@ -10,6 +10,8 @@ namespace FeralServerProject.Messages
 {
     public class StartGameMessage : MessageBase
     {
+        public string clientID;
+        
         public override eMessageTypes EMessageType
         {
             get { return eMessageTypes.StartGameMessage; }
@@ -17,12 +19,12 @@ namespace FeralServerProject.Messages
 
         protected override void Write(BinaryWriter w)
         {
-            
+            w.Write(clientID);
         }
 
         protected override void Read(BinaryReader r)
         {
-            
+            clientID = r.ReadString();
         }
     }
 }

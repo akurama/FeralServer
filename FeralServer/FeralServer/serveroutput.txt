@@ -415,3 +415,367 @@ durch den Hostcomputer abgebrochen
 [19.06.2018 17:46:13] Client with the ID1529430358240,97feral5 has disconnected.
 [19.06.2018 17:50:06] New data available
 [19.06.2018 17:50:06] Client with the ID1529430367017,53feral6 has disconnected.
+[20.06.2018 11:43:52] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[20.06.2018 11:43:52] Server Started
+[20.06.2018 11:44:39] Client wants to connect
+[20.06.2018 11:44:39] Current Connected Clients: 0
+[20.06.2018 11:44:39] Client can connect
+[20.06.2018 11:44:39] New Client Created
+[20.06.2018 11:44:39] New data available
+[20.06.2018 11:44:39] Jonathan Frakes has connected
+[20.06.2018 11:44:47] New data available
+[20.06.2018 11:44:47] Player with the client id 1529495079034,5feral1 is Ready
+[20.06.2018 11:44:50] New data available
+[20.06.2018 11:44:50] Player with the client id 1529495079034,5feral1 is not Ready
+[20.06.2018 11:44:54] New data available
+[20.06.2018 11:44:54] Player with the client id 1529495079034,5feral1 is Ready
+[20.06.2018 11:44:55] New data available
+[20.06.2018 11:44:55] Player with the client id 1529495079034,5feral1 is not Ready
+[20.06.2018 11:44:58] New data available
+[20.06.2018 11:44:58] Client with the ID1529495079034,5feral1 has disconnected.
+[20.06.2018 11:54:37] Client wants to connect
+[20.06.2018 11:54:37] Current Connected Clients: 0
+[20.06.2018 11:54:37] Client can connect
+[20.06.2018 11:54:37] New Client Created
+[20.06.2018 11:54:37] New data available
+[20.06.2018 11:54:37] Jonathan Frakes has connected
+[20.06.2018 11:54:39] New data available
+[20.06.2018 11:54:39] Player with the client id 1529495677274feral2 is Ready
+[20.06.2018 11:54:40] New data available
+[20.06.2018 11:54:40] Player with the client id 1529495677274feral2 is not Ready
+[20.06.2018 11:55:03] New data available
+[20.06.2018 11:55:03] Player with the client id 1529495677274feral2 is Ready
+[20.06.2018 11:55:03] New data available
+[20.06.2018 11:55:03] Player with the client id 1529495677274feral2 is not Ready
+[20.06.2018 11:55:04] New data available
+[20.06.2018 11:55:04] Player with the client id 1529495677274feral2 is Ready
+[20.06.2018 11:55:04] New data available
+[20.06.2018 11:55:04] Player with the client id 1529495677274feral2 is not Ready
+[20.06.2018 11:55:04] New data available
+[20.06.2018 11:55:04] Player with the client id 1529495677274feral2 is Ready
+[20.06.2018 11:55:07] New data available
+[20.06.2018 11:55:07] Player with the client id 1529495677274feral2 is not Ready
+[20.06.2018 11:55:08] New data available
+[20.06.2018 11:55:08] Player with the client id 1529495677274feral2 is Ready
+[20.06.2018 11:55:40] Client wants to connect
+[20.06.2018 11:55:40] Current Connected Clients: 1
+[20.06.2018 11:55:40] Client can connect
+[20.06.2018 11:55:40] New Client Created
+[20.06.2018 11:55:40] New data available
+[20.06.2018 11:55:40] Jonathan Frakes has connected
+[20.06.2018 11:55:46] New data available
+[20.06.2018 11:55:46] Player with the client id 1529495740958,78feral3 is Ready
+[20.06.2018 11:56:00] New data available
+[20.06.2018 11:56:00] Client with the ID1529495677274feral2 has disconnected.
+[20.06.2018 11:56:04] New data available
+[20.06.2018 11:56:04] Client with the ID1529495740958,78feral3 has disconnected.
+[20.06.2018 12:24:52] Client wants to connect
+[20.06.2018 12:24:52] Current Connected Clients: 0
+[20.06.2018 12:24:52] Client can connect
+[20.06.2018 12:24:52] New Client Created
+[20.06.2018 12:24:53] New data available
+[20.06.2018 12:24:53] Jonathan Frakes has connected
+[20.06.2018 12:24:56] Client wants to connect
+[20.06.2018 12:24:56] Current Connected Clients: 1
+[20.06.2018 12:24:56] Client can connect
+[20.06.2018 12:24:56] New Client Created
+[20.06.2018 12:24:56] New data available
+[20.06.2018 12:24:56] Jonathan Frakes has connected
+[20.06.2018 12:24:59] New data available
+[20.06.2018 12:24:59] Client with the ID1529497493006,99feral4 has disconnected.
+[20.06.2018 12:25:11] Client wants to connect
+[20.06.2018 12:25:11] Current Connected Clients: 1
+[20.06.2018 12:25:11] Client can connect
+[20.06.2018 12:25:11] New Client Created
+[20.06.2018 12:25:11] New data available
+[20.06.2018 12:25:11] Jonathan Frakes has connected
+[20.06.2018 12:25:13] New data available
+[20.06.2018 12:25:13] Player with the client id 1529497511271,86feral6 is Ready
+[20.06.2018 12:25:26] New data available
+[20.06.2018 12:25:26] Player with the client id 1529497511271,86feral6 is not Ready
+[20.06.2018 12:25:30] New data available
+[20.06.2018 12:25:30] Player with the client id 1529497511271,86feral6 is Ready
+[20.06.2018 12:25:33] New data available
+[20.06.2018 12:25:33] Client with the ID1529497496471,96feral5 has disconnected.
+[20.06.2018 12:25:35] New data available
+[20.06.2018 12:25:35] Client with the ID1529497511271,86feral6 has disconnected.
+[20.06.2018 12:27:28] Client wants to connect
+[20.06.2018 12:27:28] Current Connected Clients: 0
+[20.06.2018 12:27:28] Client can connect
+[20.06.2018 12:27:28] New Client Created
+[20.06.2018 12:27:28] New data available
+[20.06.2018 12:27:28] Jonathan Frakes has connected
+[20.06.2018 12:28:03] New data available
+[20.06.2018 12:28:03] Client with the ID1529497648991,69feral7 has disconnected.
+[20.06.2018 12:28:18] Client wants to connect
+[20.06.2018 12:28:18] Current Connected Clients: 0
+[20.06.2018 12:28:18] Client can connect
+[20.06.2018 12:28:18] New Client Created
+[20.06.2018 12:28:18] New data available
+[20.06.2018 12:28:18] Jonathan Frakes has connected
+[20.06.2018 12:28:29] Client wants to connect
+[20.06.2018 12:28:29] Current Connected Clients: 1
+[20.06.2018 12:28:29] Client can connect
+[20.06.2018 12:28:29] New Client Created
+[20.06.2018 12:28:29] New data available
+[20.06.2018 12:28:29] Jonathan Frakes has connected
+[20.06.2018 12:28:33] New data available
+[20.06.2018 12:28:33] Player with the client id 1529497709897,36feral9 is Ready
+[20.06.2018 12:28:39] New data available
+[20.06.2018 12:28:39] Client with the ID1529497698044,73feral8 has disconnected.
+[20.06.2018 12:28:43] New data available
+[20.06.2018 12:28:43] Client with the ID1529497709897,36feral9 has disconnected.
+[20.06.2018 13:39:35] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[20.06.2018 13:39:35] Server Started
+[20.06.2018 13:39:53] Client wants to connect
+[20.06.2018 13:39:53] Current Connected Clients: 0
+[20.06.2018 13:39:53] Client can connect
+[20.06.2018 13:39:53] New Client Created
+[20.06.2018 13:39:53] Jonathan Frakes has connected
+[20.06.2018 13:39:55] Client wants to connect
+[20.06.2018 13:39:55] Current Connected Clients: 1
+[20.06.2018 13:39:55] Client can connect
+[20.06.2018 13:39:55] New Client Created
+[20.06.2018 13:39:55] Jonathan Frakes has connected
+[20.06.2018 13:39:57] Player with the client id 1529501995547,72feral2 is Ready
+[20.06.2018 13:40:34] Client with the ID1529501993901,22feral1 has disconnected.
+[20.06.2018 13:40:37] Client with the ID1529501995547,72feral2 has disconnected.
+[20.06.2018 13:46:34] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[20.06.2018 13:46:34] Server Started
+[20.06.2018 13:46:50] Client wants to connect
+[20.06.2018 13:46:50] Current Connected Clients: 0
+[20.06.2018 13:46:50] Client can connect
+[20.06.2018 13:46:50] New Client Created
+[20.06.2018 13:46:50] Jonathan Frakes has connected
+[20.06.2018 13:46:53] Client with the ID1529502410194,35feral1 has disconnected.
+[20.06.2018 13:46:57] Client wants to connect
+[20.06.2018 13:46:57] Current Connected Clients: 0
+[20.06.2018 13:46:57] Client can connect
+[20.06.2018 13:46:57] New Client Created
+[20.06.2018 13:46:57] Jonathan Frakes has connected
+[20.06.2018 13:47:00] Player with the client id 1529502417483,53feral2 is Ready
+[20.06.2018 13:47:05] Client wants to connect
+[20.06.2018 13:47:05] Current Connected Clients: 1
+[20.06.2018 13:47:05] Client can connect
+[20.06.2018 13:47:05] New Client Created
+[20.06.2018 13:47:05] Jonathan Frakes has connected
+[20.06.2018 13:47:06] Player with the client id 1529502425183,03feral3 is Ready
+[20.06.2018 13:47:26] Player with the client id 1529502417483,53feral2 is not Ready
+[20.06.2018 13:47:27] Player with the client id 1529502417483,53feral2 is Ready
+[20.06.2018 13:47:27] Player with the client id 1529502417483,53feral2 is not Ready
+[20.06.2018 13:47:28] Player with the client id 1529502417483,53feral2 is Ready
+[20.06.2018 13:47:32] Player with the client id 1529502417483,53feral2 is not Ready
+[20.06.2018 13:47:32] Player with the client id 1529502417483,53feral2 is Ready
+[20.06.2018 13:47:33] Player with the client id 1529502417483,53feral2 is not Ready
+[20.06.2018 13:47:35] Player with the client id 1529502425183,03feral3 is not Ready
+[20.06.2018 13:47:36] Player with the client id 1529502417483,53feral2 is Ready
+[20.06.2018 13:47:38] Player with the client id 1529502425183,03feral3 is Ready
+[20.06.2018 13:49:38] Client with the ID1529502417483,53feral2 has disconnected.
+[20.06.2018 13:51:55] Client wants to connect
+[20.06.2018 13:51:55] Current Connected Clients: 1
+[20.06.2018 13:51:55] Client can connect
+[20.06.2018 13:51:55] New Client Created
+[20.06.2018 13:51:55] Jonathan Frakes has connected
+[20.06.2018 13:51:57] Client wants to connect
+[20.06.2018 13:51:57] Current Connected Clients: 2
+[20.06.2018 13:51:57] Client cannot connect, because the Lobby is full
+[20.06.2018 13:52:04] Client with the ID1529502425183,03feral3 has disconnected.
+[20.06.2018 13:52:13] Client wants to connect
+[20.06.2018 13:52:13] Current Connected Clients: 1
+[20.06.2018 13:52:13] Client can connect
+[20.06.2018 13:52:13] New Client Created
+[20.06.2018 13:52:13] Jonathan Frakes has connected
+[20.06.2018 13:52:14] Player with the client id 1529502733025,61feral6 is Ready
+[20.06.2018 13:52:33] Game starts now!
+[20.06.2018 13:52:53] Client with the ID1529502715528,53feral4 has disconnected.
+[20.06.2018 13:52:55] Client with the ID1529502733025,61feral6 has disconnected.
+[20.06.2018 14:47:30] Client wants to connect
+[20.06.2018 14:47:30] Current Connected Clients: 0
+[20.06.2018 14:47:30] Client can connect
+[20.06.2018 14:47:30] New Client Created
+[20.06.2018 14:47:30] Jonathan Frakes has connected
+[20.06.2018 14:47:31] Client wants to connect
+[20.06.2018 14:47:31] Current Connected Clients: 1
+[20.06.2018 14:47:31] Client can connect
+[20.06.2018 14:47:31] New Client Created
+[20.06.2018 14:47:31] Jonathan Frakes has connected
+[20.06.2018 14:47:32] Player with the client id 1529506051456,08feral8 is Ready
+[20.06.2018 14:47:33] Player with the client id 1529506050437,57feral7 is Ready
+[20.06.2018 14:47:37] Player with the client id 1529506050437,57feral7 is not Ready
+[20.06.2018 14:47:39] Player with the client id 1529506050437,57feral7 is Ready
+[20.06.2018 14:49:18] Game starts now!
+[20.06.2018 14:49:30] From Cell: 140 To Cell: 161 Interaction Type: 2
+[20.06.2018 14:49:43] Player 0 finished Turn 1 now its Player 1 turn
+[20.06.2018 14:49:46] Client with the ID1529506051456,08feral8 has disconnected.
+[20.06.2018 14:49:49] Player 1 finished Turn 2 now its Player 0 turn
+[20.06.2018 14:50:47] Client with the ID1529506050437,57feral7 has disconnected.
+[20.06.2018 14:53:53] Client wants to connect
+[20.06.2018 14:53:53] Current Connected Clients: 0
+[20.06.2018 14:53:53] Client can connect
+[20.06.2018 14:53:53] New Client Created
+[20.06.2018 14:53:53] Jonathan Frakes has connected
+[20.06.2018 14:53:54] Client wants to connect
+[20.06.2018 14:53:55] Current Connected Clients: 1
+[20.06.2018 14:53:55] Client can connect
+[20.06.2018 14:53:55] New Client Created
+[20.06.2018 14:53:55] Jonathan Frakes has connected
+[20.06.2018 14:53:56] Player with the client id 1529506435042,49feral10 is Ready
+[20.06.2018 14:53:57] Player with the client id 1529506433069,1feral9 is Ready
+[20.06.2018 14:54:41] Game starts now!
+[20.06.2018 14:55:03] From Cell: 35 To Cell: 55 Interaction Type: 2
+[20.06.2018 14:55:16] From Cell: 76 To Cell: 96 Interaction Type: 2
+[20.06.2018 14:55:19] Client with the ID1529506435042,49feral10 has disconnected.
+[20.06.2018 14:55:30] Client with the ID1529506433069,1feral9 has disconnected.
+[20.06.2018 15:02:33] Client wants to connect
+[20.06.2018 15:02:33] Current Connected Clients: 0
+[20.06.2018 15:02:33] Client can connect
+[20.06.2018 15:02:33] New Client Created
+[20.06.2018 15:02:33] Jonathan Frakes has connected
+[20.06.2018 15:02:34] Client wants to connect
+[20.06.2018 15:02:34] Current Connected Clients: 1
+[20.06.2018 15:02:34] Client can connect
+[20.06.2018 15:02:34] New Client Created
+[20.06.2018 15:02:34] Jonathan Frakes has connected
+[20.06.2018 15:02:35] Player with the client id 1529506954567,55feral12 is Ready
+[20.06.2018 15:02:36] Player with the client id 1529506953454,2feral11 is Ready
+[20.06.2018 15:02:56] Game starts now!
+[20.06.2018 15:03:05] From Cell: 76 To Cell: 96 Interaction Type: 2
+[20.06.2018 15:03:07] Player 0 finished Turn 1 now its Player 1 turn
+[20.06.2018 15:03:12] From Cell: 244 To Cell: 245 Interaction Type: 2
+[20.06.2018 15:03:15] From Cell: 245 To Cell: 226 Interaction Type: 3
+[20.06.2018 15:03:17] Player 1 finished Turn 2 now its Player 0 turn
+[20.06.2018 15:03:18] Player 0 finished Turn 3 now its Player 1 turn
+[20.06.2018 15:03:20] From Cell: 226 To Cell: 187 Interaction Type: 3
+[20.06.2018 15:03:23] Player 1 finished Turn 4 now its Player 0 turn
+[20.06.2018 15:03:26] Player 0 finished Turn 5 now its Player 1 turn
+[20.06.2018 15:03:29] From Cell: 187 To Cell: 148 Interaction Type: 3
+[20.06.2018 15:03:30] Player 1 finished Turn 6 now its Player 0 turn
+[20.06.2018 15:03:31] Player 0 finished Turn 7 now its Player 1 turn
+[20.06.2018 15:03:34] From Cell: 148 To Cell: 130 Interaction Type: 3
+[20.06.2018 15:03:36] Player 1 finished Turn 8 now its Player 0 turn
+[20.06.2018 15:03:37] Player 0 finished Turn 9 now its Player 1 turn
+[20.06.2018 15:03:39] From Cell: 130 To Cell: 132 Interaction Type: 3
+[20.06.2018 15:03:42] Player 1 finished Turn 10 now its Player 0 turn
+[20.06.2018 15:03:43] Player 0 finished Turn 11 now its Player 1 turn
+[20.06.2018 15:03:44] From Cell: 132 To Cell: 93 Interaction Type: 3
+[20.06.2018 15:03:48] Player 1 finished Turn 12 now its Player 0 turn
+[20.06.2018 15:03:49] Player 0 finished Turn 13 now its Player 1 turn
+[20.06.2018 15:03:50] From Cell: 93 To Cell: 95 Interaction Type: 3
+[20.06.2018 15:03:54] From Cell: 95 To Cell: 96 Interaction Type: 4
+[20.06.2018 15:04:51] Player 1 finished Turn 14 now its Player 0 turn
+[20.06.2018 15:04:53] From Cell: 96 To Cell: 74 Interaction Type: 3
+[20.06.2018 15:04:56] From Cell: 74 To Cell: 95 Interaction Type: 4
+[20.06.2018 15:05:00] Player 0 finished Turn 15 now its Player 1 turn
+[20.06.2018 15:05:01] Player 1 finished Turn 16 now its Player 0 turn
+[20.06.2018 15:05:02] Player 0 finished Turn 17 now its Player 1 turn
+[20.06.2018 15:05:02] Player 1 finished Turn 18 now its Player 0 turn
+[20.06.2018 15:05:02] Player 0 finished Turn 19 now its Player 1 turn
+[20.06.2018 15:05:02] Player 1 finished Turn 20 now its Player 0 turn
+[20.06.2018 15:05:03] Player 0 finished Turn 21 now its Player 1 turn
+[20.06.2018 15:05:03] Client with the ID1529506953454,2feral11 has disconnected.
+[20.06.2018 15:05:04] Client with the ID1529506954567,55feral12 has disconnected.
+[20.06.2018 16:03:14] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[20.06.2018 16:03:14] Server Started
+[20.06.2018 16:03:34] Client wants to connect
+[20.06.2018 16:03:34] Current Connected Clients: 0
+[20.06.2018 16:03:34] Client can connect
+[20.06.2018 16:03:34] New Client Created
+[20.06.2018 16:03:34] System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.IO.BinaryWriter.Write(String value)
+   at FeralServerProject.Messages.ClientInformationMessage.Write(BinaryWriter w) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Messages\ClientInformationMessage.cs:line 35
+   at FeralServerProject.Messages.MessageBase.ToByteArray() in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Messages\MessageBase.cs:line 23
+   at FeralServerProject.Connection.Send(MessageBase m) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Connection.cs:line 81
+   at FeralServerProject.Server.OnMessageRecieved(MessageBase message, Connection senderConnection) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Server.cs:line 187
+[20.06.2018 16:03:34] Jonathan Frakes has connected
+[20.06.2018 16:03:42] Client wants to connect
+[20.06.2018 16:03:42] Current Connected Clients: 0
+[20.06.2018 16:03:42] Client can connect
+[20.06.2018 16:03:42] New Client Created
+[20.06.2018 16:03:42] System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.IO.BinaryWriter.Write(String value)
+   at FeralServerProject.Messages.ClientInformationMessage.Write(BinaryWriter w) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Messages\ClientInformationMessage.cs:line 35
+   at FeralServerProject.Messages.MessageBase.ToByteArray() in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Messages\MessageBase.cs:line 23
+   at FeralServerProject.Connection.Send(MessageBase m) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Connection.cs:line 81
+   at FeralServerProject.Server.OnMessageRecieved(MessageBase message, Connection senderConnection) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Server.cs:line 187
+[20.06.2018 16:03:42] Jonathan Frakes has connected
+[20.06.2018 16:10:18] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[20.06.2018 16:10:18] Server Started
+[20.06.2018 16:10:40] Client wants to connect
+[20.06.2018 16:10:40] Current Connected Clients: 0
+[20.06.2018 16:10:41] Client can connect
+[20.06.2018 16:10:41] New Client Created
+[20.06.2018 16:10:41] Jonathan Frakes has connected
+[20.06.2018 16:10:42] Client wants to connect
+[20.06.2018 16:10:42] Current Connected Clients: 1
+[20.06.2018 16:10:42] Client can connect
+[20.06.2018 16:10:42] New Client Created
+[20.06.2018 16:10:42] Jonathan Frakes has connected
+[20.06.2018 16:10:48] Client with the ID1529511042659,36feral2 has disconnected.
+[20.06.2018 16:11:51] System.IO.IOException: Unable to write data to the transport connection: Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen. ---> System.Net.Sockets.SocketException: Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at FeralServerProject.Connection.Send(MessageBase m) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Connection.cs:line 82
+   at FeralServerProject.Server.ClientHeadBeat() in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Server.cs:line 138
+[20.06.2018 16:14:32] Client wants to connect
+[20.06.2018 16:14:32] Current Connected Clients: 0
+[20.06.2018 16:14:32] Client can connect
+[20.06.2018 16:14:32] New Client Created
+[20.06.2018 16:14:32] Jonathan Frakes has connected
+[20.06.2018 16:14:33] Client wants to connect
+[20.06.2018 16:14:33] Current Connected Clients: 1
+[20.06.2018 16:14:33] Client can connect
+[20.06.2018 16:14:33] New Client Created
+[20.06.2018 16:14:33] Jonathan Frakes has connected
+[20.06.2018 16:25:18] Client with the ID1529511272699,44feral3 has disconnected.
+[20.06.2018 16:25:28] Client with the ID1529511273852,56feral4 has disconnected.
+[20.06.2018 17:31:14] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[20.06.2018 17:31:14] Server Started
+[20.06.2018 17:31:15] Client wants to connect
+[20.06.2018 17:31:15] Current Connected Clients: 0
+[20.06.2018 17:31:15] Client can connect
+[20.06.2018 17:31:15] New Client Created
+[20.06.2018 17:31:15] Another has connected
+[20.06.2018 17:31:17] Player with the client id 1529515875798,01feral1 is Ready
+[20.06.2018 17:31:19] Player with the client id 1529515875798,01feral1 is not Ready
+[20.06.2018 17:31:40] Client wants to connect
+[20.06.2018 17:31:40] Current Connected Clients: 1
+[20.06.2018 17:31:40] Client can connect
+[20.06.2018 17:31:40] New Client Created
+[20.06.2018 17:31:40] Jona has connected
+[20.06.2018 17:31:43] Client with the ID1529515875798,01feral1 has disconnected.
+[20.06.2018 17:32:00] Client wants to connect
+[20.06.2018 17:32:00] Current Connected Clients: 1
+[20.06.2018 17:32:00] Client can connect
+[20.06.2018 17:32:00] New Client Created
+[20.06.2018 17:32:00] Another has connected
+[20.06.2018 17:32:08] Client with the ID1529515900088,49feral2 has disconnected.
+[20.06.2018 17:32:10] Client with the ID1529515920429,19feral3 has disconnected.
+[20.06.2018 17:34:32] Client wants to connect
+[20.06.2018 17:34:32] Current Connected Clients: 0
+[20.06.2018 17:34:32] Client can connect
+[20.06.2018 17:34:32] New Client Created
+[20.06.2018 17:34:32] Another has connected
+[20.06.2018 17:34:37] Client wants to connect
+[20.06.2018 17:34:37] Current Connected Clients: 1
+[20.06.2018 17:34:37] Client can connect
+[20.06.2018 17:34:37] New Client Created
+[20.06.2018 17:34:37] JOna has connected
+[20.06.2018 17:34:39] Client with the ID1529516072077,02feral4 has disconnected.
+[20.06.2018 17:35:40] Client with the ID1529516077614,27feral5 has disconnected.
+[20.06.2018 17:43:17] Client wants to connect
+[20.06.2018 17:43:17] Current Connected Clients: 0
+[20.06.2018 17:43:17] Client can connect
+[20.06.2018 17:43:17] New Client Created
+[20.06.2018 17:43:17] Another has connected
+[20.06.2018 17:43:18] Client wants to connect
+[20.06.2018 17:43:18] Current Connected Clients: 1
+[20.06.2018 17:43:18] Client can connect
+[20.06.2018 17:43:18] New Client Created
+[20.06.2018 17:43:18] Jona has connected
+[20.06.2018 17:43:19] Client with the ID1529516597250,28feral6 has disconnected.
+[20.06.2018 17:44:31] Client with the ID1529516598367,29feral7 has disconnected.

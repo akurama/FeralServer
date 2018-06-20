@@ -161,7 +161,7 @@ namespace FeralServerProject
 
                 for (int i = 0; i < connections.Count; i++)
                 {
-                    ClientInformationMessage m = new ClientInformationMessage(connections[i].ClientId, i, 0);
+                    ClientInformationMessage m = new ClientInformationMessage(connections[i].ClientId, connections[i].Username, i, 0);
                     connections[i].PlayerID = i;
                     connections[i].Send(m);
                 }
@@ -172,8 +172,9 @@ namespace FeralServerProject
                 string clientID = (DateTime.Now - new DateTime(1970, 1, 1)).TotalMilliseconds.ToString() + "feral" + numOfConnectedClients;
                 int playerID = connections.Count - 1;
                 
-                ClientInformationMessage m = new ClientInformationMessage(clientID, playerID, 0);
+                ClientInformationMessage m = new ClientInformationMessage(clientID, ((ConnectMessage)message).userName, playerID, 0);
                 senderConnection.Send(m);
+                senderConnection.Username = ((ConnectMessage) message).userName;
                 senderConnection.ClientId = clientID;
                 senderConnection.PlayerID = playerID;
                 for (int i = 0; i < connections.Count; i++)
@@ -183,7 +184,7 @@ namespace FeralServerProject
                         m.informationType = 1;
                         if(connections[i] != senderConnection)
                             connections[i].Send(m);
-                        ClientInformationMessage m1 = new ClientInformationMessage(connections[i].ClientId, connections[i].PlayerID, 1);
+                        ClientInformationMessage m1 = new ClientInformationMessage(connections[i].ClientId, connections[i].Username, connections[i].PlayerID, 1);
                         senderConnection.Send(m1);
                     }
                     catch (Exception e)
@@ -218,7 +219,7 @@ namespace FeralServerProject
             if (message is ConnectMessage)
             {
                 var m = (ConnectMessage) message;
-                ConsoleLogs.ConsoleLog(ConsoleColor.Green, m.senderName + " has connected");
+                ConsoleLogs.ConsoleLog(ConsoleColor.Green, m.userName + " has connected");
             }
             else if (message is DisconnectMessage)
             {
@@ -235,6 +236,7 @@ namespace FeralServerProject
             else if (message is StartGameMessage)
             {
                 var m = (StartGameMessage) message;
+                ConsoleLogs.ConsoleLog(ConsoleColor.DarkCyan, "Game starts now!");
             }
             else if (message is StopGameMessage)
             {
@@ -243,7 +245,7 @@ namespace FeralServerProject
             else if (message is ChatMessage)
             {
                 var m = (ChatMessage) message;
-                ConsoleLogs.ConsoleLog(ConsoleColor.Blue, m.SenderName + ": " + m.messageText);
+                ConsoleLogs.ConsoleLog(ConsoleColor.Blue, m.clientID + ": " + m.messageText);
             }
             else if (message is HeartbeatMessage)
             {

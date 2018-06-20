@@ -43,6 +43,14 @@ namespace FeralServerProject
             set { clientID = value; }
         }
 
+        private string userName;
+
+        public string Username
+        {
+            get { return userName; }
+            set { userName = value; }
+        }
+
         public int receivedMessages;
 
         //Currentstep: 0
@@ -78,7 +86,6 @@ namespace FeralServerProject
         {
             while (this.networktStream.DataAvailable)
             {
-                ConsoleLogs.ConsoleLog(ConsoleColor.Gray, "New data available");
                 int bytesData = this.networktStream.Read(receiveBuffer, 0, receiveBuffer.Length);
                 this.messageProtocoll.ReceiveData(this.receiveBuffer, 0, bytesData);
             }
