@@ -61,9 +61,6 @@ namespace FeralServerProject.Messages
                 case eMessageTypes.HeartbeatMessage:
                     m = new HeartbeatMessage();
                     break;
-                case eMessageTypes.EmptyMessage2:
-                    ConsoleLogs.ConsoleLog(ConsoleColor.Red, "Message Type not Implemented");
-                    return null;
                 case eMessageTypes.GameStateMessage:
                     m = new GameStateMessage();
                     break;

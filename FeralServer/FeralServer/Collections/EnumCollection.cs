@@ -15,7 +15,6 @@ namespace FeralServerProject.Collections
         StopGameMessage,
         ChatMessage,
         HeartbeatMessage,
-        EmptyMessage2,
         GameStateMessage,
         GameInputMessage,
         EndTurnMessage,
