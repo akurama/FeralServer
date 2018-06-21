@@ -21,7 +21,8 @@ namespace FeralServerProject.Collections
         EndTurnMessage,
         GameSettingsMessage,
         ClientInformationMessage,
-        PlayerRenameMessage
+        PlayerRenameMessage,
+        RoomCreationMessage
     }
 
     public enum eSettingType

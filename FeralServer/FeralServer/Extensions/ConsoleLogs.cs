@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Globalization;
 using System.IO;
-using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
-using System.Threading.Tasks;
-using System.Xml;
+using FeralServerProject.Messages;
+using FeralServerProject.Collections;
 
 namespace FeralServerProject.Extensions
 {
@@ -80,6 +77,68 @@ namespace FeralServerProject.Extensions
             byte[] info = new UTF8Encoding(true).GetBytes(message);
             fs.Write(info, 0, info.Length);
             fs.Close();
+        }
+        
+        public static void LogMessage(MessageBase message)
+        {
+            if (message is ConnectMessage)
+            {
+                var m = (ConnectMessage) message;
+                ConsoleLogs.ConsoleLog(ConsoleColor.Green, m.userName + " has connected");
+            }
+            else if (message is DisconnectMessage)
+            {
+                var m = (DisconnectMessage) message;
+                ConsoleLogs.ConsoleLog(ConsoleColor.DarkGreen, "Client with the ID" + m.clientID + " has disconnected.");
+            }
+            else if (message is ReadyMessage)
+            {
+                var m = (ReadyMessage) message;
+                eReadyState readyState = (eReadyState) m.readyState;
+                ConsoleLogs.ConsoleLog(ConsoleColor.Magenta, "Player with the client id " + m.clientID + 
+                                                             (readyState == eReadyState.Ready ? " is Ready" : " is not Ready"));
+            }
+            else if (message is StartGameMessage)
+            {
+                var m = (StartGameMessage) message;
+                ConsoleLogs.ConsoleLog(ConsoleColor.DarkCyan, "Game starts now!");
+            }
+            else if (message is StopGameMessage)
+            {
+                var m = (StopGameMessage) message;
+            }
+            else if (message is ChatMessage)
+            {
+                var m = (ChatMessage) message;
+                ConsoleLogs.ConsoleLog(ConsoleColor.Blue, m.clientID + ": " + m.messageText);
+            }
+            else if (message is HeartbeatMessage)
+            {
+                var m = (HeartbeatMessage) message;
+            }
+            else if (message is GameStateMessage)
+            {
+                var m = (GameStateMessage) message;
+            }
+            else if (message is GameInputMessage)
+            {
+                var m = (GameInputMessage) message;
+                ConsoleLogs.ConsoleLog(ConsoleColor.DarkCyan, "From Cell: " + m.fromCellIndex + " To Cell: " + m.toCellIndex + " Interaction Type: " + m.interactionType);
+            }
+            else if (message is EndTurnMessage)
+            {
+                var m = (EndTurnMessage) message;
+                ConsoleLogs.ConsoleLog(ConsoleColor.DarkYellow, "Player " + m.playerIDold + " finished Turn " + m.turnIDold + " now its Player " + m.playerIDnew + " turn");
+            }   
+            else if (message is GameSettingsMessage)
+            {
+                var m = (GameInputMessage) message;
+            }
+            else if (message is PlayerRenameMessage)
+            {
+                var m = (PlayerRenameMessage) message;
+                ConsoleLog(ConsoleColor.Blue, "Client " + m.clientID + " renamed to " + m.newName);
+            }
         }
     }
 }

@@ -63,8 +63,6 @@ namespace FeralServerProject
             this.playerID = playerID;
 
             this.messageProtocoll.MessageComplete += MessageProtocoal_MessaceCoplete;
-
-            ConsoleLogs.ConsoleLog(ConsoleColor.Green, "New Client Created");
         }
 
         private void MessageProtocoal_MessaceCoplete(byte[] obj)
