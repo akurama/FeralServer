@@ -196,8 +196,6 @@ namespace FeralServerProject
                 }
             }
               
-            
-            
             for (int i = 0; i < connections.Count; i++)
             {
                 try
@@ -268,6 +266,10 @@ namespace FeralServerProject
             else if (message is GameSettingsMessage)
             {
                 var m = (GameInputMessage) message;
+            }
+            else if (message is PlayerRenameMessage)
+            {
+                ConsoleLogs.ConsoleLog("rename", true);
             }
         }
     }

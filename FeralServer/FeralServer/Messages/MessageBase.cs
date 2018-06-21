@@ -79,8 +79,11 @@ namespace FeralServerProject.Messages
                 case eMessageTypes.ClientInformationMessage:
                     m = new ClientInformationMessage();
                     break;
+                case eMessageTypes.PlayerRenameMessage:
+                    m = new PlayerRenameMessage();
+                    break;
                 default:
-                    //TODO: DONT LET THE SERVER CRASH
+                    //TODO: DONT LET THE SERVER CRASH (Default Chat Massage)
                     throw new ArgumentOutOfRangeException();
             }
 
