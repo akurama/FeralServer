@@ -779,3 +779,796 @@ durch den Hostcomputer abgebrochen
 [20.06.2018 17:43:18] Jona has connected
 [20.06.2018 17:43:19] Client with the ID1529516597250,28feral6 has disconnected.
 [20.06.2018 17:44:31] Client with the ID1529516598367,29feral7 has disconnected.
+[21.06.2018 10:08:45] Client wants to connect
+[21.06.2018 10:08:46] Current Connected Clients: 0
+[21.06.2018 10:08:46] Client can connect
+[21.06.2018 10:08:46] New Client Created
+[21.06.2018 10:08:46] Jona has connected
+[21.06.2018 10:08:48] Client with the ID1529575726013,04feral8 has disconnected.
+[21.06.2018 10:09:26] Client wants to connect
+[21.06.2018 10:09:26] Current Connected Clients: 0
+[21.06.2018 10:09:26] Client can connect
+[21.06.2018 10:09:26] New Client Created
+[21.06.2018 10:09:26] Another has connected
+[21.06.2018 10:09:28] Client wants to connect
+[21.06.2018 10:09:28] Current Connected Clients: 1
+[21.06.2018 10:09:28] Client can connect
+[21.06.2018 10:09:28] New Client Created
+[21.06.2018 10:09:28] Jona has connected
+[21.06.2018 10:09:51] Client with the ID1529575766726,9feral9 has disconnected.
+[21.06.2018 10:40:43] Client with the ID1529575768165,22feral10 has disconnected.
+[21.06.2018 10:40:57] Client wants to connect
+[21.06.2018 10:40:57] Current Connected Clients: 0
+[21.06.2018 10:40:57] Client can connect
+[21.06.2018 10:40:57] New Client Created
+[21.06.2018 10:40:57] Another has connected
+[21.06.2018 10:41:07] Client wants to connect
+[21.06.2018 10:41:07] Current Connected Clients: 1
+[21.06.2018 10:41:07] Client can connect
+[21.06.2018 10:41:07] New Client Created
+[21.06.2018 10:41:07] Jona has connected
+[21.06.2018 10:41:11] Client with the ID1529577657720,07feral11 has disconnected.
+[21.06.2018 10:42:43] Client with the ID1529577667391,06feral12 has disconnected.
+[21.06.2018 10:42:52] Client wants to connect
+[21.06.2018 10:42:52] Current Connected Clients: 0
+[21.06.2018 10:42:52] Client can connect
+[21.06.2018 10:42:52] New Client Created
+[21.06.2018 10:42:52] Another has connected
+[21.06.2018 10:42:59] Client wants to connect
+[21.06.2018 10:42:59] Current Connected Clients: 1
+[21.06.2018 10:42:59] Client can connect
+[21.06.2018 10:42:59] New Client Created
+[21.06.2018 10:42:59] Jona has connected
+[21.06.2018 10:43:01] Client with the ID1529577772593,17feral13 has disconnected.
+[21.06.2018 10:43:04] Client with the ID1529577779822,03feral14 has disconnected.
+[21.06.2018 10:43:15] Client wants to connect
+[21.06.2018 10:43:15] Current Connected Clients: 0
+[21.06.2018 10:43:15] Client can connect
+[21.06.2018 10:43:15] New Client Created
+[21.06.2018 10:43:15] Jona has connected
+[21.06.2018 10:46:48] Client with the ID1529577795709,37feral15 has disconnected.
+[21.06.2018 10:47:00] Client wants to connect
+[21.06.2018 10:47:00] Current Connected Clients: 0
+[21.06.2018 10:47:00] Client can connect
+[21.06.2018 10:47:00] New Client Created
+[21.06.2018 10:47:00] Jona has connected
+[21.06.2018 10:47:04] Client with the ID1529578020043,72feral16 has disconnected.
+[21.06.2018 10:47:10] Client wants to connect
+[21.06.2018 10:47:10] Current Connected Clients: 0
+[21.06.2018 10:47:10] Client can connect
+[21.06.2018 10:47:10] New Client Created
+[21.06.2018 10:47:10] Jona has connected
+[21.06.2018 10:47:14] Client with the ID1529578030274,61feral17 has disconnected.
+[21.06.2018 10:47:42] Client wants to connect
+[21.06.2018 10:47:42] Current Connected Clients: 0
+[21.06.2018 10:47:42] Client can connect
+[21.06.2018 10:47:42] New Client Created
+[21.06.2018 10:47:42] Jona has connected
+[21.06.2018 10:47:45] Client with the ID1529578062217,28feral18 has disconnected.
+[21.06.2018 10:51:16] Client wants to connect
+[21.06.2018 10:51:16] Current Connected Clients: 0
+[21.06.2018 10:51:16] Client can connect
+[21.06.2018 10:51:16] New Client Created
+[21.06.2018 10:51:16] Jona has connected
+[21.06.2018 10:51:20] Client with the ID1529578276886,56feral19 has disconnected.
+[21.06.2018 10:51:32] Client wants to connect
+[21.06.2018 10:51:32] Current Connected Clients: 0
+[21.06.2018 10:51:32] Client can connect
+[21.06.2018 10:51:32] New Client Created
+[21.06.2018 10:51:32] Jona has connected
+[21.06.2018 10:51:36] Client with the ID1529578292452,31feral20 has disconnected.
+[21.06.2018 10:51:37] Client wants to connect
+[21.06.2018 10:51:37] Current Connected Clients: 0
+[21.06.2018 10:51:37] Client can connect
+[21.06.2018 10:51:37] New Client Created
+[21.06.2018 10:51:37] Another has connected
+[21.06.2018 10:51:43] Client wants to connect
+[21.06.2018 10:51:43] Current Connected Clients: 1
+[21.06.2018 10:51:43] Client can connect
+[21.06.2018 10:51:43] New Client Created
+[21.06.2018 10:51:43] Jona has connected
+[21.06.2018 10:51:44] Client with the ID1529578297084,84feral21 has disconnected.
+[21.06.2018 10:51:53] Client with the ID1529578303158,29feral22 has disconnected.
+[21.06.2018 11:05:13] Client wants to connect
+[21.06.2018 11:05:13] Current Connected Clients: 0
+[21.06.2018 11:05:13] Client can connect
+[21.06.2018 11:05:13] New Client Created
+[21.06.2018 11:05:13] Another has connected
+[21.06.2018 11:05:14] Client wants to connect
+[21.06.2018 11:05:14] Current Connected Clients: 1
+[21.06.2018 11:05:14] Client can connect
+[21.06.2018 11:05:14] New Client Created
+[21.06.2018 11:05:14] Jona has connected
+[21.06.2018 11:05:21] Client with the ID1529579114708,24feral24 has disconnected.
+[21.06.2018 11:06:05] Client with the ID1529579113488,62feral23 has disconnected.
+[21.06.2018 11:06:13] Client wants to connect
+[21.06.2018 11:06:13] Current Connected Clients: 0
+[21.06.2018 11:06:13] Client can connect
+[21.06.2018 11:06:13] New Client Created
+[21.06.2018 11:06:13] Another has connected
+[21.06.2018 11:06:15] Client wants to connect
+[21.06.2018 11:06:15] Current Connected Clients: 1
+[21.06.2018 11:06:15] Client can connect
+[21.06.2018 11:06:15] New Client Created
+[21.06.2018 11:06:15] Jona has connected
+[21.06.2018 11:06:18] Client with the ID1529579173739,08feral25 has disconnected.
+[21.06.2018 11:06:27] Client with the ID1529579175049,67feral26 has disconnected.
+[21.06.2018 11:18:25] Client wants to connect
+[21.06.2018 11:18:25] Current Connected Clients: 0
+[21.06.2018 11:18:25] Client can connect
+[21.06.2018 11:18:25] New Client Created
+[21.06.2018 11:18:26] Jona has connected
+[21.06.2018 11:18:33] System.IO.IOException: Unable to write data to the transport connection: Eine vorhandene Verbindung wurde vom Remotehost geschlossen. ---> System.Net.Sockets.SocketException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at FeralServerProject.Connection.Send(MessageBase m) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Connection.cs:line 82
+   at FeralServerProject.Server.ClientHeadBeat() in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Server.cs:line 138
+[21.06.2018 11:20:50] Client wants to connect
+[21.06.2018 11:20:50] Current Connected Clients: 0
+[21.06.2018 11:20:50] Client can connect
+[21.06.2018 11:20:50] New Client Created
+[21.06.2018 11:20:50] Jona has connected
+[21.06.2018 11:21:16] Client wants to connect
+[21.06.2018 11:21:16] Current Connected Clients: 1
+[21.06.2018 11:21:16] Client can connect
+[21.06.2018 11:21:16] New Client Created
+[21.06.2018 11:21:16] Another has connected
+[21.06.2018 11:21:19] Client with the ID1529580050978,03feral28 has disconnected.
+[21.06.2018 11:21:25] Client wants to connect
+[21.06.2018 11:21:25] Current Connected Clients: 1
+[21.06.2018 11:21:25] Client can connect
+[21.06.2018 11:21:25] New Client Created
+[21.06.2018 11:21:25] Jona has connected
+[21.06.2018 11:21:31] Client with the ID1529580076625,67feral29 has disconnected.
+[21.06.2018 11:21:35] Client with the ID1529580085379,34feral30 has disconnected.
+[21.06.2018 11:32:12] Client wants to connect
+[21.06.2018 11:32:12] Current Connected Clients: 0
+[21.06.2018 11:32:12] Client can connect
+[21.06.2018 11:32:12] New Client Created
+[21.06.2018 11:32:12] Jona has connected
+[21.06.2018 11:32:14] Client wants to connect
+[21.06.2018 11:32:14] Current Connected Clients: 1
+[21.06.2018 11:32:14] Client can connect
+[21.06.2018 11:32:14] New Client Created
+[21.06.2018 11:32:14] Jona has connected
+[21.06.2018 11:32:21] Client with the ID1529580732829,24feral31 has disconnected.
+[21.06.2018 11:32:26] Client with the ID1529580734632,68feral32 has disconnected.
+[21.06.2018 11:50:48] Client wants to connect
+[21.06.2018 11:50:48] Current Connected Clients: 0
+[21.06.2018 11:50:48] Client can connect
+[21.06.2018 11:50:48] New Client Created
+[21.06.2018 11:50:48] Jona has connected
+[21.06.2018 11:50:50] Client wants to connect
+[21.06.2018 11:50:50] Current Connected Clients: 1
+[21.06.2018 11:50:50] Client can connect
+[21.06.2018 11:50:50] New Client Created
+[21.06.2018 11:50:50] Jona has connected
+[21.06.2018 11:50:54] Client with the ID1529581848942,54feral33 has disconnected.
+[21.06.2018 11:51:04] Client with the ID1529581850315,86feral34 has disconnected.
+[21.06.2018 11:53:57] Client wants to connect
+[21.06.2018 11:53:57] Current Connected Clients: 0
+[21.06.2018 11:53:57] Client can connect
+[21.06.2018 11:53:57] New Client Created
+[21.06.2018 11:53:57] Jona has connected
+[21.06.2018 11:54:52] Client with the ID1529582037033,07feral35 has disconnected.
+[21.06.2018 11:55:00] Client wants to connect
+[21.06.2018 11:55:00] Current Connected Clients: 0
+[21.06.2018 11:55:00] Client can connect
+[21.06.2018 11:55:00] New Client Created
+[21.06.2018 11:55:00] Jona has connected
+[21.06.2018 11:55:00] Client with the ID1529582100309,48feral36 has disconnected.
+[21.06.2018 11:55:09] Client wants to connect
+[21.06.2018 11:55:09] Current Connected Clients: 0
+[21.06.2018 11:55:09] Client can connect
+[21.06.2018 11:55:09] New Client Created
+[21.06.2018 11:55:09] Jona has connected
+[21.06.2018 11:55:12] Client wants to connect
+[21.06.2018 11:55:12] Current Connected Clients: 1
+[21.06.2018 11:55:12] Client can connect
+[21.06.2018 11:55:12] New Client Created
+[21.06.2018 11:55:12] Jona has connected
+[21.06.2018 11:55:36] Client with the ID1529582109627,96feral37 has disconnected.
+[21.06.2018 11:55:42] Client wants to connect
+[21.06.2018 11:55:42] Current Connected Clients: 1
+[21.06.2018 11:55:42] Client can connect
+[21.06.2018 11:55:42] New Client Created
+[21.06.2018 11:55:42] Jona has connected
+[21.06.2018 11:55:59] Client with the ID1529582142634,42feral39 has disconnected.
+[21.06.2018 11:57:53] Client with the ID1529582112410,6feral38 has disconnected.
+[21.06.2018 12:06:29] Client wants to connect
+[21.06.2018 12:06:29] Current Connected Clients: 0
+[21.06.2018 12:06:29] Client can connect
+[21.06.2018 12:06:29] New Client Created
+[21.06.2018 12:06:29] Jona has connected
+[21.06.2018 12:06:34] Client with the ID1529582789766,87feral40 has disconnected.
+[21.06.2018 13:41:36] Client wants to connect
+[21.06.2018 13:41:36] Current Connected Clients: 0
+[21.06.2018 13:41:36] Client can connect
+[21.06.2018 13:41:36] New Client Created
+[21.06.2018 13:41:36] Jona has connected
+[21.06.2018 13:41:59] Client with the ID1529588496622,73feral41 has disconnected.
+[21.06.2018 15:36:22] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 15:36:22] Server Started
+[21.06.2018 15:36:31] Client wants to connect
+[21.06.2018 15:36:31] Current Connected Clients: 0
+[21.06.2018 15:36:31] Client can connect
+[21.06.2018 15:36:31] New Client Created
+[21.06.2018 15:36:31] Jona has connected
+[21.06.2018 15:36:40] Client with the ID1529595391183,53feral1 has disconnected.
+[21.06.2018 15:36:58] Client wants to connect
+[21.06.2018 15:36:58] Current Connected Clients: 0
+[21.06.2018 15:36:58] Client can connect
+[21.06.2018 15:36:58] New Client Created
+[21.06.2018 15:36:58] Jona has connected
+[21.06.2018 15:37:15] Client with the ID1529595418629,47feral2 has disconnected.
+[21.06.2018 15:37:32] Client wants to connect
+[21.06.2018 15:37:32] Current Connected Clients: 0
+[21.06.2018 15:37:32] Client can connect
+[21.06.2018 15:37:32] New Client Created
+[21.06.2018 15:37:32] Jona has connected
+[21.06.2018 15:37:39] Client with the ID1529595452530,33feral3 has disconnected.
+[21.06.2018 15:38:58] Client wants to connect
+[21.06.2018 15:38:58] Current Connected Clients: 0
+[21.06.2018 15:38:58] Client can connect
+[21.06.2018 15:38:58] New Client Created
+[21.06.2018 15:38:58] Jona has connected
+[21.06.2018 15:39:11] Client with the ID1529595538664,78feral4 has disconnected.
+[21.06.2018 15:39:44] Client wants to connect
+[21.06.2018 15:39:44] Current Connected Clients: 0
+[21.06.2018 15:39:44] Client can connect
+[21.06.2018 15:39:44] New Client Created
+[21.06.2018 15:39:44] Jona has connected
+[21.06.2018 15:40:03] Client with the ID1529595584056,35feral5 has disconnected.
+[21.06.2018 15:40:52] Client wants to connect
+[21.06.2018 15:40:52] Current Connected Clients: 0
+[21.06.2018 15:40:52] Client can connect
+[21.06.2018 15:40:52] New Client Created
+[21.06.2018 15:40:52] Jona has connected
+[21.06.2018 15:41:36] Client with the ID1529595652098,31feral6 has disconnected.
+[21.06.2018 15:42:37] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 15:42:37] Server Started
+[21.06.2018 15:42:45] Client wants to connect
+[21.06.2018 15:42:45] Current Connected Clients: 0
+[21.06.2018 15:42:45] Client can connect
+[21.06.2018 15:42:45] New Client Created
+[21.06.2018 15:42:46] Jona has connected
+[21.06.2018 15:42:48] rename
+[21.06.2018 15:47:23] Client with the ID1529595766012,79feral1 has disconnected.
+[21.06.2018 15:47:36] Client wants to connect
+[21.06.2018 15:47:36] Current Connected Clients: 0
+[21.06.2018 15:47:36] Client can connect
+[21.06.2018 15:47:36] New Client Created
+[21.06.2018 15:47:36] Jona has connected
+[21.06.2018 15:47:38] rename
+[21.06.2018 15:49:20] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 15:49:20] Server Started
+[21.06.2018 15:49:30] Client wants to connect
+[21.06.2018 15:49:30] Current Connected Clients: 0
+[21.06.2018 15:49:30] Client can connect
+[21.06.2018 15:49:30] New Client Created
+[21.06.2018 15:49:30] Jona has connected
+[21.06.2018 15:49:32] rename
+[21.06.2018 15:49:35] Client with the ID1529596170119,45feral1 has disconnected.
+[21.06.2018 15:57:38] Client wants to connect
+[21.06.2018 15:57:38] Current Connected Clients: 0
+[21.06.2018 15:57:38] Client can connect
+[21.06.2018 15:57:38] New Client Created
+[21.06.2018 15:57:38] Jona has connected
+[21.06.2018 15:57:42] rename
+[21.06.2018 15:57:44] Client with the ID1529596658963,52feral2 has disconnected.
+[21.06.2018 16:03:28] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 16:03:28] Server Started
+[21.06.2018 16:03:30] Client wants to connect
+[21.06.2018 16:03:30] Current Connected Clients: 0
+[21.06.2018 16:03:30] Client can connect
+[21.06.2018 16:03:30] New Client Created
+[21.06.2018 16:03:30] Jona has connected
+[21.06.2018 16:03:32] Client wants to connect
+[21.06.2018 16:03:32] Current Connected Clients: 1
+[21.06.2018 16:03:32] Client can connect
+[21.06.2018 16:03:32] New Client Created
+[21.06.2018 16:03:32] Jona has connected
+[21.06.2018 16:03:36] rename
+[21.06.2018 16:03:39] rename
+[21.06.2018 16:03:44] Client with the ID1529597012705,14feral2 has disconnected.
+[21.06.2018 16:03:45] Client with the ID1529597010253,14feral1 has disconnected.
+[21.06.2018 16:29:12] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 16:29:12] Server Started
+[21.06.2018 16:30:29] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 16:30:29] Server Started
+[21.06.2018 16:30:35] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 16:30:36] Server Started
+[21.06.2018 16:31:07] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 16:31:07] Server Started
+[21.06.2018 16:31:07] Room 1529598667949,76feralroom0 updated
+[21.06.2018 16:31:07] Room 1529598667949,76feralroom0 updated
+[21.06.2018 16:31:08] Room 1529598667949,76feralroom0 updated
+[21.06.2018 16:31:08] Room 1529598667949,76feralroom0 updated
+[21.06.2018 16:31:08] Room 1529598667949,76feralroom0 updated
+[21.06.2018 16:31:08] Room 1529598667949,76feralroom0 updated
+[21.06.2018 16:31:08] Room 1529598667949,76feralroom0 updated
+[21.06.2018 16:31:08] Room 1529598667949,76feralroom0 updated
+[21.06.2018 16:31:43] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 16:31:43] Server Started
+[21.06.2018 16:31:43] Room 1529598703738,32feralroom0 updated
+[21.06.2018 16:31:43] Room 1529598703738,32feralroom0 updated
+[21.06.2018 16:31:43] Room 1529598703738,32feralroom0 updated
+[21.06.2018 16:31:43] Room 1529598703738,32feralroom0 updated
+[21.06.2018 16:31:43] Room 1529598703738,32feralroom0 updated
+[21.06.2018 16:31:44] Room 1529598703738,32feralroom0 updated
+[21.06.2018 16:31:44] Room 1529598703738,32feralroom0 updated
+[21.06.2018 16:31:44] Room 1529598703738,32feralroom0 updated
+[21.06.2018 16:31:44] Room 1529598703738,32feralroom0 updated
+[21.06.2018 16:32:06] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 16:32:06] Server Started
+[21.06.2018 16:32:06] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:06] Room 1529598726842,48feralroom0 updated heartbeat
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:07] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:08] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:09] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated heartbeat
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:10] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:11] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:12] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated heartbeat
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:32:13] Room 1529598726842,48feralroom0 updated
+[21.06.2018 16:44:42] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 16:44:42] Server Started
+[21.06.2018 16:45:01] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 16:45:01] Server Started
+[21.06.2018 16:51:14] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 16:51:14] Server Started
+[21.06.2018 16:51:22] Client wants to connect
+[21.06.2018 16:51:22] Current Connected Clients: 0
+[21.06.2018 16:51:22] Client can connect
+[21.06.2018 16:51:22] New Client Created
+[21.06.2018 16:51:22] new client
+[21.06.2018 16:51:58] Client wants to connect
+[21.06.2018 16:51:58] Current Connected Clients: 1
+[21.06.2018 16:51:58] Client can connect
+[21.06.2018 16:51:58] New Client Created
+[21.06.2018 16:51:58] new client
+[21.06.2018 16:52:34] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 16:52:34] Server Started
+[21.06.2018 16:52:40] Client wants to connect
+[21.06.2018 16:52:40] Current Connected Clients: 0
+[21.06.2018 16:52:40] Client can connect
+[21.06.2018 16:52:40] New Client Created
+[21.06.2018 16:52:40] new client
+[21.06.2018 16:53:21] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 16:53:21] Server Started
+[21.06.2018 16:53:42] Client wants to connect
+[21.06.2018 16:53:42] Current Connected Clients: 0
+[21.06.2018 16:53:42] Client can connect
+[21.06.2018 16:53:42] New Client Created
+[21.06.2018 16:53:42] new client
+[21.06.2018 16:54:05] Client wants to connect
+[21.06.2018 16:54:05] Current Connected Clients: 0
+[21.06.2018 16:54:05] Client can connect
+[21.06.2018 16:54:05] New Client Created
+[21.06.2018 16:54:05] new client
+[21.06.2018 16:54:41] Client wants to connect
+[21.06.2018 16:54:41] Current Connected Clients: 0
+[21.06.2018 16:54:41] Client can connect
+[21.06.2018 16:54:41] New Client Created
+[21.06.2018 16:54:41] new client
+[21.06.2018 16:56:20] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 16:56:20] Server Started
+[21.06.2018 16:56:26] Client wants to connect
+[21.06.2018 16:56:26] Current Connected Clients: 0
+[21.06.2018 16:56:26] Client can connect
+[21.06.2018 16:56:26] New Client Created
+[21.06.2018 16:56:26] new client
+[21.06.2018 16:56:26] new message
+[21.06.2018 16:56:41] new message
+[21.06.2018 16:56:47] new message
+[21.06.2018 16:56:52] new message
+[21.06.2018 16:57:23] new message
+[21.06.2018 16:57:26] System.IO.IOException: Unable to write data to the transport connection: Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen. ---> System.Net.Sockets.SocketException: Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at FeralServerProject.Connection.Send(MessageBase m) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Connection.cs:line 82
+   at FeralServerProject.Room.RoomHeartbeatProc() in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Room.cs:line 80
+[21.06.2018 17:08:09] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 17:08:09] Server Started
+[21.06.2018 17:08:59] Client wants to connect
+[21.06.2018 17:08:59] Current Connected Clients: 0
+[21.06.2018 17:08:59] Client can connect
+[21.06.2018 17:08:59] New Client Created
+[21.06.2018 17:08:59] Jona has connected
+[21.06.2018 17:09:03] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:15:48] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[21.06.2018 17:15:48] Server Started
+[21.06.2018 17:15:58] Jona has connected
+[21.06.2018 17:16:03] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:04] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:05] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:05] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:05] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:05] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:06] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:06] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:06] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:06] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:07] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:07] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:07] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:07] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:07] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:07] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:08] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:08] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:08] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:16] rename
+[21.06.2018 17:16:19] QwQ: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:19] QwQ: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:19] QwQ: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:20] QwQ: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:20] QwQ: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:20] QwQ: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:20] QwQ: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:20] QwQ: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:20] QwQ: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:21] QwQ: Wahrheit oder nicht, das ist hier die Frage!
+[21.06.2018 17:16:27] Client with the ID1529601358728,18feral1 has disconnected.
+[22.06.2018 11:02:20] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 11:02:20] Server Started
+[22.06.2018 11:02:34] Jona has connected
+[22.06.2018 11:02:50] Client with the ID has disconnected.
+[22.06.2018 11:03:48] Jona has connected
+[22.06.2018 11:04:46] Client with the ID has disconnected.
+[22.06.2018 11:05:05] Jona has connected
+[22.06.2018 11:06:07] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 11:06:07] Server Started
+[22.06.2018 11:06:15] Jona has connected
+[22.06.2018 11:06:22] Player with the client id  is Ready
+[22.06.2018 11:07:17] Client with the ID has disconnected.
+[22.06.2018 11:07:43] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 11:07:43] Server Started
+[22.06.2018 11:08:20] Jona has connected
+[22.06.2018 11:09:22] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 11:09:22] Server Started
+[22.06.2018 11:09:28] Jona has connected
+[22.06.2018 11:10:07] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 11:10:07] Server Started
+[22.06.2018 11:10:16] Jona has connected
+[22.06.2018 11:10:47] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 11:10:47] Server Started
+[22.06.2018 11:10:55] Jona has connected
+[22.06.2018 11:11:03] Client with the ID has disconnected.
+[22.06.2018 11:12:07] Jona has connected
+[22.06.2018 11:12:25] Client with the ID has disconnected.
+[22.06.2018 11:13:37] Jona has connected
+[22.06.2018 11:13:55] Client with the ID1529666017661,63feral3 has disconnected.
+[22.06.2018 11:15:50] Jona has connected
+[22.06.2018 11:15:56] Client with the ID1529666150818,3feral4 has disconnected.
+[22.06.2018 11:27:52] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 11:27:52] Server Started
+[22.06.2018 11:27:55] Jona has connected
+[22.06.2018 11:28:13] Jona: Wahrheit oder nicht, das ist hier die Frage!
+[22.06.2018 11:30:10] Client with the ID1529666875139,37feral1 has disconnected.
+[22.06.2018 11:30:39] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 11:30:39] Server Started
+[22.06.2018 11:30:46] Jona has connected
+[22.06.2018 11:31:02] Client with the ID1529667046708,76feral1 has disconnected.
+[22.06.2018 11:31:21] Jona has connected
+[22.06.2018 11:39:28] Client with the ID1529667081091,29feral2 has disconnected.
+[22.06.2018 11:44:42] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 11:44:42] Server Started
+[22.06.2018 11:50:08] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 11:50:08] Server Started
+[22.06.2018 11:50:17] Jona has connected
+[22.06.2018 11:50:33] Client with the ID1529668217523,46feral1 has disconnected.
+[22.06.2018 11:50:47] Jona has connected
+[22.06.2018 11:51:31] Client with the ID1529668247758,02feral2 has disconnected.
+[22.06.2018 11:53:07] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 11:53:07] Server Started
+[22.06.2018 11:53:37] Jona has connected
+[22.06.2018 11:54:01] Client with the ID1529668417041,05feral1 has disconnected.
+[22.06.2018 13:58:05] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 13:58:05] Server Started
+[22.06.2018 13:58:28] Jona has connected
+[22.06.2018 13:58:48] Jona has connected
+[22.06.2018 13:58:52] Client with the ID1529675928313,14feral2 has disconnected.
+[22.06.2018 13:59:38] Jona has connected
+[22.06.2018 13:59:41] Client with the ID1529675978235,62feral3 has disconnected.
+[22.06.2018 14:05:45] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 14:05:45] Server Started
+[22.06.2018 14:05:47] Jona has connected
+[22.06.2018 14:06:04] Jona has connected
+[22.06.2018 14:10:10] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 14:10:10] Server Started
+[22.06.2018 14:10:13] Jona has connected
+[22.06.2018 14:10:22] Jona has connected
+[22.06.2018 14:11:27] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 14:11:27] Server Started
+[22.06.2018 14:11:38] Jona has connected
+[22.06.2018 14:11:49] Jona has connected
+[22.06.2018 14:19:46] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 14:19:46] Server Started
+[22.06.2018 14:19:56] Jona has connected
+[22.06.2018 14:20:02] Jona has connected
+[22.06.2018 14:20:19] Client with the ID1529677202682,25feral2 has disconnected.
+[22.06.2018 14:20:30] Jona has connected
+[22.06.2018 14:21:35] Client with the ID1529677196760,96feral1 has disconnected.
+[22.06.2018 14:24:01] Client with the ID1529677230657,65feral3 has disconnected.
+[22.06.2018 14:42:17] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 14:42:17] Server Started
+[22.06.2018 14:42:32] Jona has connected
+[22.06.2018 14:42:44] Jona has connected
+[22.06.2018 14:43:04] Client with the ID1529678564314,73feral2 has disconnected.
+[22.06.2018 14:43:22] Jona has connected
+[22.06.2018 14:43:39] Client with the ID1529678602106,47feral3 has disconnected.
+[22.06.2018 14:45:06] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 14:45:06] Server Started
+[22.06.2018 14:45:09] Jona has connected
+[22.06.2018 14:45:28] Jona has connected
+[22.06.2018 14:45:39] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[22.06.2018 14:45:39] Server Started
+[22.06.2018 14:45:50] Jona has connected
+[22.06.2018 14:46:18] Jona has connected
+[22.06.2018 14:46:20] Client with the ID1529678778020,06feral2 has disconnected.
+[22.06.2018 14:47:09] Jona has connected
+[22.06.2018 14:49:17] Client with the ID1529678829369,01feral3 has disconnected.
+[22.06.2018 14:49:28] Jona has connected
+[22.06.2018 14:49:40] Client with the ID1529678968871,3feral4 has disconnected.
+[22.06.2018 15:04:10] Jona has connected
+[22.06.2018 15:04:16] Client with the ID1529679850562,57feral5 has disconnected.
+[22.06.2018 15:04:55] Jona has connected
+[22.06.2018 15:19:39] Client with the ID1529679895151,29feral6 has disconnected.
+[22.06.2018 15:22:49] Jona has connected
+[22.06.2018 15:23:04] Client with the ID1529680969769,62feral7 has disconnected.

@@ -66,7 +66,7 @@ namespace FeralServerProject
             this.serverThread.IsBackground = true;
             this.serverThread.Start();
             
-            rooms.Add(new Room("Lobby", Int32.MaxValue));
+            rooms.Add(new Room("Lobby", Int32.MaxValue, true));
         }
 
         void ServerThreadProc()
@@ -85,8 +85,15 @@ namespace FeralServerProject
                     }
                 }
             }
-            
+
             Thread.Sleep(50);
+        }
+
+        public void RemoveRoom(Room room)
+        {
+            rooms.Remove(room);
+            room.TerminateRoom();
+            room = null;
         }
     }
 }

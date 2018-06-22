@@ -139,6 +139,26 @@ namespace FeralServerProject.Extensions
                 var m = (PlayerRenameMessage) message;
                 ConsoleLog(ConsoleColor.Blue, "Client " + m.clientID + " renamed to " + m.newName);
             }
+            else if(message is RoomCreationMessage)
+            {
+                var m = (RoomCreationMessage) message;
+            }
+            else if (message is RoomInformationMessage)
+            {
+                var m = (RoomInformationMessage) message;
+            }
+            else if (message is RoomJoinMessage)
+            {
+                var m = (RoomJoinMessage) message;
+            }
+            else if (message is RoomListUpdateMessage)
+            {
+                var m = (RoomListUpdateMessage) message;
+            }
+            else if (message is MapSendMessage)
+            {
+                var m = (MapSendMessage) message;
+            }
         }
     }
 }

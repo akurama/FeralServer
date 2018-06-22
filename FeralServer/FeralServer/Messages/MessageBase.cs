@@ -79,6 +79,21 @@ namespace FeralServerProject.Messages
                 case eMessageTypes.PlayerRenameMessage:
                     m = new PlayerRenameMessage();
                     break;
+                case eMessageTypes.RoomCreationMessage:
+                    m = new RoomCreationMessage();
+                    break;
+                case eMessageTypes.RoomListUpdateMessage:
+                    m = new RoomListUpdateMessage();
+                    break;
+                case eMessageTypes.RoomJoinMessage:
+                    m = new RoomJoinMessage();
+                    break;
+                case eMessageTypes.RoomInformationMessage:
+                    m = new RoomInformationMessage();
+                    break;
+                case eMessageTypes.MapSendMessage:
+                    m = new MapSendMessage();
+                    break;
                 default:
                     //TODO: DONT LET THE SERVER CRASH (Default Chat Massage)
                     throw new ArgumentOutOfRangeException();

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Threading;
 using FeralServerProject.Extensions;
 using FeralServerProject.Messages;
@@ -20,6 +21,8 @@ namespace FeralServerProject
         public string roomID = "";
         public string roomPasswort = "";
 
+        public bool isLobby = false;
+
         private bool terminateRoom = false;
         
         private HeartbeatMessage heartbeat = new HeartbeatMessage()
@@ -38,6 +41,17 @@ namespace FeralServerProject
             this.maxPlayerNumber = maxPlayerNumber;
             this.roomID = (DateTime.Now - new DateTime(1970, 1, 1)).TotalMilliseconds + "feralroom" +
                           Server.instance.numOfCreatedRooms;
+            Server.instance.numOfCreatedRooms++;
+            StartRoom();
+        }
+        
+        public Room(string roomName, int maxPlayerNumber, bool isLobby)
+        {
+            this.roomName = roomName;
+            this.maxPlayerNumber = maxPlayerNumber;
+            this.roomID = (DateTime.Now - new DateTime(1970, 1, 1)).TotalMilliseconds + "feralroom" +
+                          Server.instance.numOfCreatedRooms;
+            this.isLobby = isLobby;
             Server.instance.numOfCreatedRooms++;
             StartRoom();
         }
@@ -103,7 +117,7 @@ namespace FeralServerProject
         }
 
         void OnMessageRecieved(MessageBase message, Connection senderConnection)
-        {
+        {         
             if (message is DisconnectMessage)
             {
                 disconnectedConnections.Add(senderConnection);
@@ -146,6 +160,11 @@ namespace FeralServerProject
                     }
                 }
             }
+
+            if (message is RoomCreationMessage)
+            {
+                CreateRoom((RoomCreationMessage)message, senderConnection);
+            }
               
             for (int i = 0; i < connections.Count; i++)
             {
@@ -172,10 +191,72 @@ namespace FeralServerProject
             Server.instance.rooms[0].AddClient(connection);
         }
 
+        public void JoinRoom(string roomID, Connection connection)
+        {
+            connection.MessageRecieved -= OnMessageRecieved;
+            connections.Remove(connection);
+            if (this.playerCount == 0 && !isLobby)
+            {
+                Server.instance.RemoveRoom(this);
+            }
+            FindRoom(roomID).AddClient(connection);
+        }
+
+        public void JoinRoom(Room room, Connection connection)
+        {
+            connection.MessageRecieved -= OnMessageRecieved;
+            connections.Remove(connection);
+            if (this.playerCount == 0 && !isLobby)
+            {
+                Server.instance.RemoveRoom(this);
+            }
+            room.AddClient(connection);
+        }
+
+        Room FindRoom(string roomID)
+        {
+            for (int i = 1; i < Server.instance.rooms.Count; i++)
+            {
+                if (Server.instance.rooms[i].roomID == roomID)
+                    return Server.instance.rooms[i];
+            }
+
+            return null;
+        }
+
+        void CreateRoom(RoomCreationMessage roomCreationMessage, Connection roomCreator)
+        {
+            Room newRoom = new Room(roomCreationMessage.roomName, roomCreationMessage.maxPlayerCount);
+            Server.instance.rooms.Add(newRoom);
+            JoinRoom(newRoom, roomCreator);
+            Console.WriteLine(Server.instance.rooms.Count);
+        }
+
         public void AddClient(Connection connection)
         {
             connection.MessageRecieved += OnMessageRecieved;
             this.connections.Add(connection);
+            
+            if(this == Server.instance.rooms[0])
+                SendRoomList(connection);
+        }
+
+        void SendRoomList(Connection connection)
+        {
+            RoomInformationMessage roomInformationmessage = new RoomInformationMessage();
+            Room tempRoom;
+            for (int i = 1; i < Server.instance.rooms.Count; i++)
+            {
+                tempRoom = Server.instance.rooms[i];
+                roomInformationmessage.SetRoomInformations(tempRoom.roomName, tempRoom.roomID, "foo", tempRoom.playerCount, tempRoom.maxPlayerNumber);
+                Console.WriteLine(roomInformationmessage.roomName);
+                connection.Send(roomInformationmessage);
+            }
+        }
+
+        public void TerminateRoom()
+        {
+            terminateRoom = true;
         }
     }   
 }
