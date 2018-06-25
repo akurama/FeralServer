@@ -148,23 +148,27 @@ namespace FeralServerProject
                 senderConnection.PlayerID = playerID;
 
                 if (this == Server.instance.rooms[0])
-                    return;
-
-                for (int i = 0; i < connections.Count; i++)
                 {
-                    try
+
+                }
+                else
+                {
+                    for (int i = 0; i < connections.Count; i++)
                     {
-                        m.informationType = 1;
-                        if (connections[i] != senderConnection)
-                            connections[i].Send(m);
-                        ClientInformationMessage m1 = new ClientInformationMessage(connections[i].ClientId, connections[i].Username, connections[i].PlayerID, 1);
-                        senderConnection.Send(m1);
-                    }
-                    catch (Exception e)
-                    {
-                        ConsoleLogs.ConsoleLog(ConsoleColor.Red, e.ToString());
-                        disconnectedConnections.Add(connections[i]);
-                        connections[i].MessageRecieved -= OnMessageRecieved;
+                        try
+                        {
+                            m.informationType = 1;
+                            if (connections[i] != senderConnection)
+                                connections[i].Send(m);
+                            ClientInformationMessage m1 = new ClientInformationMessage(connections[i].ClientId, connections[i].Username, connections[i].PlayerID, 1);
+                            senderConnection.Send(m1);
+                        }
+                        catch (Exception e)
+                        {
+                            ConsoleLogs.ConsoleLog(ConsoleColor.Red, e.ToString());
+                            disconnectedConnections.Add(connections[i]);
+                            connections[i].MessageRecieved -= OnMessageRecieved;
+                        }
                     }
                 }
             }
@@ -203,6 +207,11 @@ namespace FeralServerProject
                 {
                     roomHost = ((PlayerRenameMessage) message).newName;
                 }
+            }
+
+            if (message is RoomListUpdateMessage)
+            {
+                SendRoomList(senderConnection);
             }
 
             for (int i = 0; i < connections.Count; i++)
@@ -278,6 +287,8 @@ namespace FeralServerProject
         void CreateRoom(RoomCreationMessage roomCreationMessage, Connection roomCreator)
         {
             Room newRoom = new Room(roomCreationMessage.roomName, roomCreationMessage.hostName, roomCreationMessage.maxPlayerCount);
+            var m = new RoomJoinMessage(roomCreator.ClientId, newRoom.roomID, 0);
+            roomCreator.Send(m);
             Server.instance.rooms.Add(newRoom);
             JoinRoom(newRoom, roomCreator);
         }
@@ -327,6 +338,10 @@ namespace FeralServerProject
             }
         }
 
+
+        /// <summary>
+        /// Terminates the Server Threads
+        /// </summary>
         public void TerminateRoom()
         {
             terminateRoom = true;

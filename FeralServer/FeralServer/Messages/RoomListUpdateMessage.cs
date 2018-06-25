@@ -5,6 +5,8 @@ namespace FeralServerProject.Messages
 {
     public class RoomListUpdateMessage : MessageBase
     {
+        public string clientID;
+
         public override eMessageTypes EMessageType
         {
             get { return eMessageTypes.RoomListUpdateMessage; }
@@ -12,12 +14,12 @@ namespace FeralServerProject.Messages
         
         protected override void Write(BinaryWriter w)
         {
-            
+            w.Write(clientID);
         }
 
         protected override void Read(BinaryReader r)
         {
-            
+            clientID = r.ReadString();
         }
     }
 }
