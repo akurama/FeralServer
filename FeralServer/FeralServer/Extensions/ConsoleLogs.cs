@@ -150,6 +150,7 @@ namespace FeralServerProject.Extensions
             else if (message is RoomJoinMessage)
             {
                 var m = (RoomJoinMessage) message;
+                //TODO: Log Room Join
             }
             else if (message is RoomListUpdateMessage)
             {

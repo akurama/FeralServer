@@ -89,6 +89,11 @@ namespace FeralServerProject
             }
         }
 
+
+        /// <summary>
+        /// RemoveRoom is called when a room has no Connections in it
+        /// </summary>
+        /// <param name="room">Room that will be removed</param>
         public void RemoveRoom(Room room)
         {
             rooms.Remove(room);
