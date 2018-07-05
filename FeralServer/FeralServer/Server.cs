@@ -84,9 +84,9 @@ namespace FeralServerProject
                         rooms[0].AddClient(tempConnection);
                     }
                 }
+                
+                Thread.Sleep(50);
             }
-
-            Thread.Sleep(50);
         }
 
         public void RemoveRoom(Room room)
