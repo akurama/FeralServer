@@ -1572,3 +1572,77 @@ durch den Hostcomputer abgebrochen
 [22.06.2018 15:19:39] Client with the ID1529679895151,29feral6 has disconnected.
 [22.06.2018 15:22:49] Jona has connected
 [22.06.2018 15:23:04] Client with the ID1529680969769,62feral7 has disconnected.
+[22.06.2018 16:16:06] Client with the ID1529678750900,96feral1 has disconnected.
+[19.07.2018 17:50:34] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.07.2018 17:50:35] Server Started
+[19.07.2018 17:57:44] Deine Mama has connected
+[19.07.2018 17:58:08] AkuramaLP has connected
+[19.07.2018 17:59:57] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.07.2018 17:59:57] Server Started
+[19.07.2018 18:00:12] Deine Mama has connected
+[19.07.2018 18:01:22] AkuramaLP has connected
+[19.07.2018 18:04:43] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.07.2018 18:05:09] AkuramaLP has connected
+[19.07.2018 18:07:50] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.07.2018 18:07:51] Server Started
+[19.07.2018 18:08:18] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.07.2018 18:08:18] Server Started
+[19.07.2018 18:08:28] AkuramaLP has connected
+[19.07.2018 18:09:20] Client with the ID1532023708387,17feral1 has disconnected.
+[19.07.2018 18:09:30] AkuramaLP has connected
+[19.07.2018 18:10:50] System.IO.IOException: Unable to write data to the transport connection: Eine vorhandene Verbindung wurde vom Remotehost geschlossen. ---> System.Net.Sockets.SocketException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at FeralServerProject.Connection.Send(MessageBase m) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Connection.cs:line 80
+   at FeralServerProject.Room.RoomHeartbeatProc() in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Room.cs:line 107
+[19.07.2018 18:11:00] AkuramaLP has connected
+[19.07.2018 18:11:12] Client with the ID1532023860068,13feral3 has disconnected.
+[19.07.2018 18:11:28] AkuramaLP has connected
+[19.07.2018 18:11:54] Client 1532023888492,07feral4 renamed to adaw
+[19.07.2018 18:13:23] Es ist Matchmaking 1 gebt den Server doch erstmal nen Like. Schreibs in die Kommentare findest du geil dann gibts bald Version 2
+[19.07.2018 18:13:24] Server Started
+[19.07.2018 18:17:22] Deine Mama has connected
+[19.07.2018 18:17:33] AkuramaLP has connected
+[19.07.2018 18:19:33] Client with the ID1532024253937,03feral2 has disconnected.
+[19.07.2018 18:19:40] AkuramaLP has connected
+[19.07.2018 18:20:54] System.IO.IOException: Unable to write data to the transport connection: Eine vorhandene Verbindung wurde vom Remotehost geschlossen. ---> System.Net.Sockets.SocketException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at FeralServerProject.Connection.Send(MessageBase m) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Connection.cs:line 80
+   at FeralServerProject.Room.RoomHeartbeatProc() in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Room.cs:line 107
+[19.07.2018 18:22:48] AkuramaLP has connected
+[19.07.2018 18:24:48] Client with the ID1532024568167,86feral4 has disconnected.
+[19.07.2018 18:26:32] AkuramaLP has connected
+[19.07.2018 18:27:05] Client with the ID1532024792448,79feral5 has disconnected.
+[19.07.2018 18:35:21] AkuramaLP has connected
+[19.07.2018 18:35:59] Client 1532025321257,18feral6 renamed to awdaw
+[19.07.2018 18:36:06] Client 1532024242057,56feral1 renamed to Meine Mama
+[19.07.2018 18:36:20] Client 1532025321257,18feral6 renamed to Jona
+[19.07.2018 18:36:25] Client 1532025321257,18feral6 renamed to Jona
+[19.07.2018 18:36:57] Client with the ID1532025321257,18feral6 has disconnected.
+[19.07.2018 18:39:00] Client with the ID1532024242057,56feral1 has disconnected.
+[19.07.2018 18:41:22] Deine Mama has connected
+[19.07.2018 18:41:25] AkuramaLP has connected
+[19.07.2018 18:41:54] Client with the ID1532025685746,38feral8 has disconnected.
+[19.07.2018 18:41:55] Client with the ID1532025682265,02feral7 has disconnected.
+[19.07.2018 18:47:51] AkuramaLP has connected
+[19.07.2018 18:48:02] Deine Mama has connected
+[19.07.2018 18:48:16] Client 1532026082136,03feral10 renamed to FickSchnitzel
+[19.07.2018 18:48:27] Client 1532026082136,03feral10 renamed to FUCK
+[19.07.2018 18:48:48] Client 1532026071617,69feral9 renamed to MAMA
+[19.07.2018 18:48:52] Client with the ID1532026082136,03feral10 has disconnected.
+[19.07.2018 18:48:57] System.IO.IOException: Unable to write data to the transport connection: Eine vorhandene Verbindung wurde vom Remotehost geschlossen. ---> System.Net.Sockets.SocketException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at FeralServerProject.Connection.Send(MessageBase m) in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Connection.cs:line 80
+   at FeralServerProject.Room.RoomHeartbeatProc() in D:\Data\Documents\GitHub\FeralServer\FeralServer\FeralServer\Room.cs:line 107
+[19.07.2018 18:50:04] Deine Mama has connected
+[19.07.2018 18:50:15] AkuramaLP has connected
+[19.07.2018 18:50:42] Client with the ID1532026215897,53feral12 has disconnected.
+[19.07.2018 18:51:59] AkuramaLP has connected
+[19.07.2018 18:52:09] Client 1532026319733,58feral13 renamed to adw
+[19.07.2018 18:52:11] Client with the ID1532026319733,58feral13 has disconnected.
+[19.07.2018 18:52:14] Client with the ID1532026204735,32feral11 has disconnected.

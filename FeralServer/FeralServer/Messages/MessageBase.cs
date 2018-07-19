@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using FeralServer.Messages;
 using FeralServerProject.Collections;
 using FeralServerProject.Extensions;
 
@@ -93,6 +94,9 @@ namespace FeralServerProject.Messages
                     break;
                 case eMessageTypes.MapSendMessage:
                     m = new MapSendMessage();
+                    break;
+                case eMessageTypes.RoomLobbyMessage:
+                    m = new RoomLobbyMessage();
                     break;
                 default:
                     //TODO: DONT LET THE SERVER CRASH (Default Chat Massage)

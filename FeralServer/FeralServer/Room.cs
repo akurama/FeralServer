@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
+using FeralServer.Messages;
 using FeralServerProject.Extensions;
 using FeralServerProject.Messages;
 using FeralServerProject.Collections;
@@ -121,6 +122,8 @@ namespace FeralServerProject
 
         void OnMessageRecieved(MessageBase message, Connection senderConnection)
         {
+            Console.WriteLine(message.EMessageType);
+
             if (message is DisconnectMessage)
             {
                 disconnectedConnections.Add(senderConnection);
@@ -183,10 +186,6 @@ namespace FeralServerProject
                 var m = (RoomJoinMessage) message;
                 Room target = FindRoom(m.roomID);
 
-                Console.WriteLine(target.isLobby);
-                Console.WriteLine(target.playerCount);
-                Console.WriteLine(target.maxPlayerNumber);
-
                 if (!target.isLobby && target.playerCount < target.maxPlayerNumber)
                 {
                     LeaveRoom(senderConnection, target);
@@ -198,6 +197,17 @@ namespace FeralServerProject
                     ((RoomJoinMessage)message).result = 1;
                     senderConnection.Send(message);
                 }
+            }
+
+            if (message is RoomLobbyMessage)
+            {
+                var m = (RoomLobbyMessage) message;
+
+                Console.WriteLine("ECH");
+
+                LeaveRoom(senderConnection);
+                ((RoomLobbyMessage) message).result = 0;
+                senderConnection.Send(message);
             }
 
             if (message is PlayerRenameMessage)

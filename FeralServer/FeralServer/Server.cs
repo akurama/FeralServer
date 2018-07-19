@@ -89,7 +89,6 @@ namespace FeralServerProject
             }
         }
 
-
         /// <summary>
         /// RemoveRoom is called when a room has no Connections in it
         /// </summary>
