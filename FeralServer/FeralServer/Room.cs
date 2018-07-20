@@ -122,8 +122,6 @@ namespace FeralServerProject
 
         void OnMessageRecieved(MessageBase message, Connection senderConnection)
         {
-            Console.WriteLine(message.EMessageType);
-
             if (message is DisconnectMessage)
             {
                 disconnectedConnections.Add(senderConnection);
@@ -188,9 +186,9 @@ namespace FeralServerProject
 
                 if (!target.isLobby && target.playerCount < target.maxPlayerNumber)
                 {
-                    LeaveRoom(senderConnection, target);
                     ((RoomJoinMessage)message).result = 0;
                     senderConnection.Send(message);
+                    LeaveRoom(senderConnection, target);
                 }
                 else
                 {
@@ -202,8 +200,6 @@ namespace FeralServerProject
             if (message is RoomLobbyMessage)
             {
                 var m = (RoomLobbyMessage) message;
-
-                Console.WriteLine("ECH");
 
                 LeaveRoom(senderConnection);
                 ((RoomLobbyMessage) message).result = 0;
@@ -224,17 +220,20 @@ namespace FeralServerProject
                 SendRoomList(senderConnection);
             }
 
-            for (int i = 0; i < connections.Count; i++)
+            if (message.EMessageType != eMessageTypes.RoomJoinMessage)
             {
-                try
+                for (int i = 0; i < connections.Count; i++)
                 {
-                    connections[i].Send(message);
-                }
-                catch (Exception e)
-                {
-                    ConsoleLogs.ConsoleLog(ConsoleColor.Red, e.ToString());
-                    disconnectedConnections.Add(connections[i]);
-                    connections[i].MessageRecieved -= OnMessageRecieved;
+                    try
+                    {
+                        connections[i].Send(message);
+                    }
+                    catch (Exception e)
+                    {
+                        ConsoleLogs.ConsoleLog(ConsoleColor.Red, e.ToString());
+                        disconnectedConnections.Add(connections[i]);
+                        connections[i].MessageRecieved -= OnMessageRecieved;
+                    }
                 }
             }
 
@@ -313,6 +312,7 @@ namespace FeralServerProject
                 SendRoomList(connection);
                 return;
             }
+            
 
             ClientInformationMessage m = new ClientInformationMessage(connection.ClientId, connection.Username, connections.Count - 1, 0);
             connection.Send(m);
@@ -334,6 +334,12 @@ namespace FeralServerProject
                     connections[i].MessageRecieved -= OnMessageRecieved;
                 }
             }
+
+            if(this != Server.instance.rooms[0])
+            {
+                SendRoomInfo(connection);
+                Console.WriteLine("ECH");
+            }
         }
 
         void SendRoomList(Connection connection)
@@ -346,6 +352,14 @@ namespace FeralServerProject
                 roomInformationmessage.SetRoomInformations(tempRoom.roomName, tempRoom.roomID, tempRoom.roomHost, tempRoom.playerCount, tempRoom.maxPlayerNumber);
                 connection.Send(roomInformationmessage);
             }
+        }
+
+        void SendRoomInfo(Connection connection)
+        {
+            RoomInformationMessage roomInformation = new RoomInformationMessage();
+            Room thisRoom = this;
+            roomInformation.SetRoomInformations(thisRoom.roomName, thisRoom.roomID, thisRoom.roomHost, thisRoom.playerCount, thisRoom.maxPlayerNumber);
+            connection.Send(roomInformation);
         }
 
 
