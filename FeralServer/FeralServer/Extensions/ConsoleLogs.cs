@@ -132,7 +132,7 @@ namespace FeralServerProject.Extensions
             }   
             else if (message is GameSettingsMessage)
             {
-                var m = (GameInputMessage) message;
+                var m = (GameSettingsMessage) message;
             }
             else if (message is PlayerRenameMessage)
             {

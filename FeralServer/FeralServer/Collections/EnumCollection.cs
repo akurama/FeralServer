@@ -33,7 +33,8 @@ namespace FeralServerProject.Collections
     {
         TrunCount,
         MaxPlayers,
-        RaceID
+        RaceID,
+        MapString
     }
 
     public enum eReadyState
