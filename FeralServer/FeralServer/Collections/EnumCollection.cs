@@ -26,7 +26,8 @@ namespace FeralServerProject.Collections
         RoomListUpdateMessage,
         RoomInformationMessage,
         MapSendMessage,
-        RoomLobbyMessage
+        RoomLobbyMessage,
+        SurrenderMessage
     }
 
     public enum eSettingType

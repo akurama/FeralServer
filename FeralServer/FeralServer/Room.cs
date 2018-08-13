@@ -184,7 +184,7 @@ namespace FeralServerProject
                 var m = (RoomJoinMessage) message;
                 Room target = FindRoom(m.roomID);
 
-                if (!target.isLobby && target.playerCount < target.maxPlayerNumber)
+                if (target != null && !target.isLobby && target.playerCount < target.maxPlayerNumber)
                 {
                     ((RoomJoinMessage)message).result = 0;
                     senderConnection.Send(message);
