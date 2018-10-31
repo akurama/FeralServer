@@ -26,14 +26,16 @@ namespace FeralServerProject.Collections
         RoomListUpdateMessage,
         RoomInformationMessage,
         MapSendMessage,
-        RoomLobbyMessage
+        RoomLobbyMessage,
+        SurrenderMessage
     }
 
     public enum eSettingType
     {
         TrunCount,
         MaxPlayers,
-        RaceID
+        RaceID,
+        MapString
     }
 
     public enum eReadyState

@@ -98,6 +98,9 @@ namespace FeralServerProject.Messages
                 case eMessageTypes.RoomLobbyMessage:
                     m = new RoomLobbyMessage();
                     break;
+                case eMessageTypes.SurrenderMessage:
+                    m = new SurrenderMessage();
+                    break;
                 default:
                     //TODO: DONT LET THE SERVER CRASH (Default Chat Massage)
                     throw new ArgumentOutOfRangeException();
